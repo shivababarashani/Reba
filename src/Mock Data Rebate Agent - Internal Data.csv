@@ -1,0 +1,10 @@
+manufacturer_product_code,product_id,subsidiary,demand_forecast,current_npp,compensation_required
+12345abcdef,1234,NL,1.2,30,2
+12345abcdef,1234,BE,6,30,3
+12345abcdef,1234,DE,4,30,2
+dfghal908,456,NL,3,20,4
+dfghal908,456,BE,2,20,51
+dfghal908,456,DE,1,20,0
+zxva234,789,NL,6,40,1
+zxva234,789,BE,5,40,2
+zxva234,789,DE,4,40,1

@@ -1,0 +1,1771 @@
+2025-05-14 12:38:31,529 - INFO - Extracted metadata for email 'Iphone 16 during black friday': {'from_email': 'vendorA@example.com', 'is_spam': False, 'labels': '', 'to_emails': 'daan.veld@coolblue.nl', 'cc_emails': 'j.lucvanderheijden@coolblue.nl', 'bcc_emails': '', 'subject': 'Iphone 16 during black friday', 'body': '\n             Hey Daan,\n    \n             Ik heb een leuk verzoek voor je tijdens black friday.\n             Je krijgt van mij 50 euro korting op de Iphones als je ze in de actie zet.\n             '}
+2025-05-14 12:38:31,529 - INFO - Successfully loaded 2 unique values from the 'column 2' column in this CSV: Mock Data Rebate Agent - Vendors.csv.
+2025-05-14 12:38:31,531 - INFO - Sender email 'vendorA@example.com' is known and not spam.
+2025-05-14 12:38:34,785 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-14 12:38:34,795 - INFO - LLM Response to the question if it's a valid rebate request: Yes, confidence score: 0.8.
+
+The email appears to be a rebate request based on the provided definition. It is initiated by the vendor and offers a discount ("50 euro korting") on a product ("Iphones") during a specific action period ("black friday"). The use of the word "korting," which is the Dutch translation for "discount," aligns with the criteria for identifying a rebate request.
+2025-05-14 12:38:34,795 - INFO - LLM determined the email is a rebate request.
+2025-05-14 12:38:34,795 - INFO - Extracted confidence: 0.8
+2025-05-14 12:38:34,795 - INFO - Email is not considered a valid rebate request due to low confidence (0.8).
+2025-05-14 12:38:36,279 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-14 12:38:36,285 - INFO - LLM Raw Extraction Response: {
+    "manufacturer_product_code": "null",
+    "product_id": "null",
+    "product_name": "Iphone 16",
+    "subsidiary": "null",
+    "rebate_period": "null",
+    "campaign_promotion_related": true,
+    "rebate_compensation_factor": 50.0,
+    "max_spq": "null",
+    "rebate_type": "null",
+    "new_vs_existing_rebate": "null"
+}
+2025-05-14 12:38:36,285 - INFO - Successfully parsed raw JSON from LLM.
+2025-05-14 12:38:36,286 - INFO - Finished transforming extracted data.
+2025-05-14 12:43:27,233 - INFO - Extracted metadata for email 'Iphone 16 during black friday': {'from_email': 'vendorA@example.com', 'is_spam': False, 'labels': '', 'to_emails': 'daan.veld@coolblue.nl', 'cc_emails': 'j.lucvanderheijden@coolblue.nl', 'bcc_emails': '', 'subject': 'Iphone 16 during black friday', 'body': '\n             Hey Daan,\n    \n             Ik heb een leuk verzoek voor je tijdens black friday.\n             Je krijgt van mij 50 euro korting op de Iphones als je ze in de actie zet.\n             '}
+2025-05-14 12:43:27,234 - INFO - Successfully loaded 2 unique values from the 'column 2' column in this CSV: Mock Data Rebate Agent - Vendors.csv.
+2025-05-14 12:43:27,234 - INFO - Sender email 'vendorA@example.com' is known and not spam.
+2025-05-14 12:43:29,643 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-14 12:43:29,645 - INFO - LLM Response to the question if it's a valid rebate request: Yes, confidence score: 0.8
+
+The email appears to be a rebate request as it is initiated by the vendor and offers a discount ("50 euro korting") on a product (Iphones) during a specific action period ("black friday"). This aligns with the definition of a sell-out rebate proposal.
+2025-05-14 12:43:29,646 - INFO - LLM determined the email is a rebate request.
+2025-05-14 12:43:29,646 - INFO - Extracted confidence: 0.8
+2025-05-14 12:43:29,646 - INFO - Email is not considered a valid rebate request due to low confidence (0.8).
+2025-05-14 12:43:31,496 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-14 12:43:31,498 - INFO - LLM Raw Extraction Response: {
+    "manufacturer_product_code": "null",
+    "product_id": "null",
+    "product_name": "Iphone 16",
+    "subsidiary": "null",
+    "rebate_period": "null",
+    "campaign_promotion_related": true,
+    "rebate_compensation_factor": 50.0,
+    "max_spq": null,
+    "rebate_type": "null",
+    "new_vs_existing_rebate": "null"
+}
+2025-05-14 12:43:31,498 - INFO - Successfully parsed raw JSON from LLM.
+2025-05-14 12:43:31,498 - WARNING - Unexpected raw value type for max_spq: None. Setting to None.
+2025-05-14 12:43:31,498 - INFO - Finished transforming extracted data.
+2025-05-14 12:53:02,522 - INFO - Extracted metadata for email 'Iphone 16 during black friday': {'from_email': 'vendorA@example.com', 'is_spam': False, 'labels': '', 'to_emails': 'daan.veld@coolblue.nl', 'cc_emails': 'j.lucvanderheijden@coolblue.nl', 'bcc_emails': '', 'subject': 'Iphone 16 during black friday', 'body': '\n             Hey Daan,\n    \n             Ik heb een leuk verzoek voor je tijdens black friday.\n             Je krijgt van mij 50 euro korting op de Iphones als je ze in de actie zet.\n             '}
+2025-05-14 12:53:02,523 - INFO - Successfully loaded 2 unique values from the 'column 2' column in this CSV: Mock Data Rebate Agent - Vendors.csv.
+2025-05-14 12:53:02,523 - INFO - Sender email 'vendorA@example.com' is known and not spam.
+2025-05-14 12:53:05,511 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-14 12:53:05,513 - INFO - LLM Response to the question if it's a valid rebate request: Yes, this email is a rebate request. Confidence score: 0.9. 
+
+The email is from the vendor to the company, offering a discount ("50 euro korting") on a product (iPhones) during a specific action period (Black Friday), which aligns with the definition of a sell-out rebate request.
+2025-05-14 12:53:05,513 - INFO - LLM determined the email is a rebate request.
+2025-05-14 12:53:05,514 - INFO - Extracted confidence: 0.9
+2025-05-14 12:53:05,514 - INFO - Email is a valid rebate request with confidence 0.9.
+2025-05-14 12:53:05,514 - INFO - Returning True from is_valid_rebate_request
+2025-05-14 12:53:07,280 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-14 12:53:07,283 - INFO - LLM Raw Extraction Response: {
+    "manufacturer_product_code": "null",
+    "product_id": "null",
+    "product_name": "Iphone 16",
+    "subsidiary": "null",
+    "rebate_period": "null",
+    "campaign_promotion_related": true,
+    "rebate_compensation_factor": 50.0,
+    "max_spq": null,
+    "rebate_type": "null",
+    "new_vs_existing_rebate": "new"
+}
+2025-05-14 12:53:07,283 - INFO - Successfully parsed raw JSON from LLM.
+2025-05-14 12:53:07,283 - WARNING - Unexpected raw value type for max_spq: None. Setting to None.
+2025-05-14 12:53:07,283 - INFO - Finished transforming extracted data.
+2025-05-14 12:55:18,104 - INFO - Extracted metadata for email 'Iphone 16 during black friday': {'from_email': 'vendorA@example.com', 'is_spam': False, 'labels': '', 'to_emails': 'daan.veld@coolblue.nl', 'cc_emails': 'j.lucvanderheijden@coolblue.nl', 'bcc_emails': '', 'subject': 'Iphone 16 during black friday', 'body': '\n             Hey Daan,\n    \n             Ik heb een leuk verzoek voor je tijdens black friday.\n             Je krijgt van mij 50 euro korting op de Iphones als je ze in de actie zet.\n             '}
+2025-05-14 12:55:18,104 - INFO - Successfully loaded 2 unique values from the 'column 2' column in this CSV: Mock Data Rebate Agent - Vendors.csv.
+2025-05-14 12:55:18,105 - INFO - Sender email 'vendorA@example.com' is known and not spam.
+2025-05-14 12:55:20,238 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-14 12:55:20,240 - INFO - LLM Response to the question if it's a valid rebate request: Yes, this email is a rebate request. Confidence score: 0.9.
+
+Explanation: The email is from a vendor proposing a discount ("50 euro korting") on a product ("Iphones") during a specific action period ("black friday"), which aligns with the definition of a sell-out rebate request.
+2025-05-14 12:55:20,240 - INFO - LLM determined the email is a rebate request.
+2025-05-14 12:55:20,241 - INFO - Extracted confidence: 0.9
+2025-05-14 12:55:20,241 - INFO - Email is a valid rebate request with confidence 0.9.
+2025-05-14 12:55:20,241 - INFO - Returning True from is_valid_rebate_request
+2025-05-14 12:55:21,795 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-14 12:55:21,796 - INFO - LLM Raw Extraction Response: {
+    "manufacturer_product_code": "null",
+    "product_id": "null",
+    "product_name": "Iphone 16",
+    "subsidiary": "null",
+    "rebate_period": "null",
+    "campaign_promotion_related": true,
+    "rebate_compensation_factor": 50.0,
+    "max_spq": "null",
+    "rebate_type": "null",
+    "new_vs_existing_rebate": "null"
+}
+2025-05-14 12:55:21,797 - INFO - Successfully parsed raw JSON from LLM.
+2025-05-14 12:55:21,797 - INFO - Finished transforming extracted data.
+2025-05-14 13:02:59,627 - INFO - Extracted metadata for email 'Iphone 16 during black friday': {'from_email': 'vendorA@example.com', 'is_spam': False, 'labels': '', 'to_emails': 'daan.veld@coolblue.nl', 'cc_emails': 'j.lucvanderheijden@coolblue.nl', 'bcc_emails': '', 'subject': 'Iphone 16 during black friday', 'body': '\n             Hey Daan,\n    \n             Ik heb een leuk verzoek voor je tijdens black friday.\n             Je krijgt van mij 50 euro korting op de Iphones als je ze in de actie zet.\n             '}
+2025-05-14 13:02:59,628 - INFO - Successfully loaded 2 unique values from the 'column 2' column in this CSV: Mock Data Rebate Agent - Vendors.csv.
+2025-05-14 13:02:59,628 - INFO - Sender email 'vendorA@example.com' is known and not spam.
+2025-05-14 13:03:02,145 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-14 13:03:02,148 - INFO - LLM Response to the question if it's a valid rebate request: Yes, this email is a rebate request. Confidence score: 0.9. 
+
+The email is from a vendor to the company, proposing a discount ("50 euro korting") on a product ("Iphones") during a specific action period ("black friday"), which aligns with the definition of a sell-out rebate.
+2025-05-14 13:03:02,148 - INFO - LLM determined the email is a rebate request.
+2025-05-14 13:03:02,149 - INFO - Extracted confidence: 0.9
+2025-05-14 13:03:02,149 - INFO - Email is a valid rebate request with confidence 0.9.
+2025-05-14 13:03:02,149 - INFO - Returning True from is_valid_rebate_request
+2025-05-14 13:03:03,556 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-14 13:03:03,560 - INFO - LLM Raw Extraction Response: 
+{
+    "manufacturer_product_code": null,
+    "product_id": null,
+    "product_name": "Iphone 16",
+    "subsidiary": null,
+    "start_date": null,
+    "end_date": null,
+    "campaign_promotion_related": true,
+    "rebate_compensation_factor": 50.0,
+    "max_spq": null
+}
+2025-05-14 13:03:03,560 - INFO - Successfully parsed raw JSON from LLM.
+2025-05-14 13:03:03,560 - WARNING - Unexpected raw value type for max_spq: None. Setting to None.
+2025-05-14 13:03:03,561 - INFO - Finished transforming extracted data.
+2025-05-14 13:05:12,765 - INFO - Extracted metadata for email 'Iphone 16 during black friday': {'from_email': 'vendorA@example.com', 'is_spam': False, 'labels': '', 'to_emails': 'daan.veld@coolblue.nl', 'cc_emails': 'j.lucvanderheijden@coolblue.nl', 'bcc_emails': '', 'subject': 'Iphone 16 during black friday', 'body': '\n             Hey Daan,\n    \n             Ik heb een leuk verzoek voor je tijdens black friday.\n             Je krijgt van mij 50 euro korting op de Iphones als je ze in de actie zet.\n             '}
+2025-05-14 13:05:12,765 - INFO - Successfully loaded 2 unique values from the 'column 2' column in this CSV: Mock Data Rebate Agent - Vendors.csv.
+2025-05-14 13:05:12,766 - INFO - Sender email 'vendorA@example.com' is known and not spam.
+2025-05-14 13:05:15,050 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-14 13:05:15,053 - INFO - LLM Response to the question if it's a valid rebate request: Yes, this email is a rebate request. Confidence score: 0.9. 
+
+The email is from a vendor proposing a discount ("50 euro korting") on a product ("Iphones") during a specific action period ("black friday"), which aligns with the definition of a sell-out rebate request.
+2025-05-14 13:05:15,053 - INFO - LLM determined the email is a rebate request.
+2025-05-14 13:05:15,053 - INFO - Extracted confidence: 0.9
+2025-05-14 13:05:15,053 - INFO - Email is a valid rebate request with confidence 0.9.
+2025-05-14 13:05:15,053 - INFO - Returning True from is_valid_rebate_request
+2025-05-14 13:05:16,477 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-14 13:05:16,487 - INFO - LLM Raw Extraction Response: 
+{
+    "manufacturer_product_code": null,
+    "product_id": null,
+    "product_name": "Iphone 16",
+    "subsidiary": null,
+    "start_date": null,
+    "end_date": null,
+    "campaign_promotion_related": true,
+    "rebate_compensation_factor": 50.0,
+    "max_spq": null
+}
+2025-05-14 13:05:16,487 - INFO - Successfully parsed raw JSON from LLM.
+2025-05-14 13:05:16,487 - WARNING - Unexpected raw value type for max_spq: None. Setting to None.
+2025-05-14 13:05:16,487 - INFO - Finished transforming extracted data.
+2025-05-14 13:13:52,665 - INFO - Extracted metadata for email 'Iphone 16 during black friday': {'from_email': 'vendorA@example.com', 'is_spam': False, 'labels': '', 'to_emails': 'daan.veld@coolblue.nl', 'cc_emails': 'j.lucvanderheijden@coolblue.nl', 'bcc_emails': '', 'subject': 'Iphone 16 during black friday', 'body': '\n             Hey Daan,\n    \n             Ik heb een leuk verzoek voor je tijdens black friday.\n             Je krijgt van mij 50 euro korting op de Iphones als je ze in de actie zet.\n             '}
+2025-05-14 13:13:52,665 - INFO - Successfully loaded 2 unique values from the 'column 2' column in this CSV: Mock Data Rebate Agent - Vendors.csv.
+2025-05-14 13:13:52,665 - INFO - Sender email 'vendorA@example.com' is known and not spam.
+2025-05-14 13:13:54,732 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-14 13:13:54,736 - INFO - LLM Response to the question if it's a valid rebate request: Yes, this email is a rebate request. Confidence score: 0.9. 
+
+The email is from a vendor offering a discount ("50 euro korting") on a product ("Iphones") during a specific action period ("black friday"), which aligns with the definition of a sell-out rebate request.
+2025-05-14 13:13:54,736 - INFO - LLM determined the email is a rebate request.
+2025-05-14 13:13:54,736 - INFO - Extracted confidence: 0.9
+2025-05-14 13:13:54,736 - INFO - Email is a valid rebate request with confidence 0.9.
+2025-05-14 13:13:54,736 - INFO - Returning True from is_valid_rebate_request
+2025-05-14 13:13:56,023 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-14 13:13:56,024 - INFO - LLM Raw Extraction Response: 
+{
+    "manufacturer_product_code": null,
+    "product_id": null,
+    "product_name": "Iphone 16",
+    "subsidiary": null,
+    "start_date": null,
+    "end_date": null,
+    "campaign_promotion_related": true,
+    "rebate_compensation_factor": 50.0,
+    "max_spq": null
+}
+2025-05-14 13:13:56,024 - INFO - Successfully parsed raw JSON from LLM.
+2025-05-14 13:13:56,024 - WARNING - Unexpected raw value type for max_spq: None. Setting to None.
+2025-05-14 13:13:56,024 - INFO - Finished transforming extracted data.
+2025-05-14 13:17:26,128 - INFO - Extracted metadata for email 'Iphone 16 during black friday': {'from_email': 'vendorA@example.com', 'is_spam': False, 'labels': '', 'to_emails': 'daan.veld@coolblue.nl', 'cc_emails': 'j.lucvanderheijden@coolblue.nl', 'bcc_emails': '', 'subject': 'Iphone 16 during black friday', 'body': '\n             Hey Daan,\n    \n             Ik heb een leuk verzoek voor je tijdens black friday.\n             Je krijgt van mij 50 euro korting op de Iphones als je ze in de actie zet.\n             '}
+2025-05-14 13:17:26,129 - INFO - Successfully loaded 2 unique values from the 'column 2' column in this CSV: Mock Data Rebate Agent - Vendors.csv.
+2025-05-14 13:17:26,129 - INFO - Sender email 'vendorA@example.com' is known and not spam.
+2025-05-14 13:17:28,604 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-14 13:17:28,684 - INFO - LLM Response to the question if it's a valid rebate request: Yes, the email is a rebate request. Confidence score: 0.9.
+
+The email is from a vendor to the company, proposing a discount ("50 euro korting") on a product (Iphones) during a specific action period (black friday), which aligns with the definition of a sell-out rebate request.
+2025-05-14 13:17:28,684 - INFO - LLM determined the email is a rebate request.
+2025-05-14 13:17:28,684 - INFO - Extracted confidence: 0.9
+2025-05-14 13:17:28,684 - INFO - Email is a valid rebate request with confidence 0.9.
+2025-05-14 13:17:28,684 - INFO - Returning True from is_valid_rebate_request
+2025-05-14 13:17:30,335 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-14 13:17:30,336 - INFO - LLM Raw Extraction Response: 
+{
+    "manufacturer_product_code": null,
+    "product_id": null,
+    "product_name": "Iphone 16",
+    "subsidiary": null,
+    "start_date": null,
+    "end_date": null,
+    "campaign_promotion_related": true,
+    "rebate_compensation_factor": 50.0,
+    "max_spq": null
+}
+2025-05-14 13:17:30,336 - INFO - Successfully parsed raw JSON from LLM.
+2025-05-14 13:17:30,336 - WARNING - Unexpected raw value type for max_spq: None. Setting to None.
+2025-05-14 13:17:30,336 - INFO - Finished transforming extracted data.
+2025-05-14 13:17:30,336 - ERROR - Invalid input for extract_thread_content: not an ezgmail.GmailThread object.
+2025-05-14 13:24:05,861 - INFO - Extracted metadata for email 'Iphone 16 during black friday': {'from_email': 'vendorA@example.com', 'is_spam': False, 'labels': '', 'to_emails': 'daan.veld@coolblue.nl', 'cc_emails': 'j.lucvanderheijden@coolblue.nl', 'bcc_emails': '', 'subject': 'Iphone 16 during black friday', 'body': '\n             Hey Daan,\n    \n             Ik heb een leuk verzoek voor je tijdens black friday.\n             Je krijgt van mij 50 euro korting op de Iphones als je ze in de actie zet.\n             '}
+2025-05-14 13:24:05,861 - INFO - Successfully loaded 2 unique values from the 'column 2' column in this CSV: Mock Data Rebate Agent - Vendors.csv.
+2025-05-14 13:24:05,862 - INFO - Sender email 'vendorA@example.com' is known and not spam.
+2025-05-14 13:24:09,739 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-14 13:24:09,741 - INFO - LLM Response to the question if it's a valid rebate request: Yes, this email is a rebate request. Confidence score: 0.9.
+
+The email mentions a discount ("50 euro korting") on a product ("Iphones") during a specific action period ("black friday"), which aligns with the definition of a sell-out rebate request.
+2025-05-14 13:24:09,741 - INFO - LLM determined the email is a rebate request.
+2025-05-14 13:24:09,741 - INFO - Extracted confidence: 0.9
+2025-05-14 13:24:09,741 - INFO - Email is a valid rebate request with confidence 0.9.
+2025-05-14 13:24:09,741 - INFO - Returning True from is_valid_rebate_request
+2025-05-14 13:24:11,170 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-14 13:24:11,171 - INFO - LLM Raw Extraction Response: 
+{
+    "manufacturer_product_code": null,
+    "product_id": null,
+    "product_name": "Iphone 16",
+    "subsidiary": null,
+    "start_date": null,
+    "end_date": null,
+    "campaign_promotion_related": true,
+    "rebate_compensation_factor": 50.0,
+    "max_spq": null
+}
+2025-05-14 13:24:11,171 - INFO - Successfully parsed raw JSON from LLM.
+2025-05-14 13:24:11,171 - WARNING - Unexpected raw value type for max_spq: None. Setting to None.
+2025-05-14 13:24:11,171 - INFO - Finished transforming extracted data.
+2025-05-14 13:24:11,171 - INFO - Successfully loaded 3 unique values from the 'column 0' column in this CSV: Mock Data Rebate Agent - Manufacturer Product Code Data.csv.
+2025-05-14 13:25:09,921 - INFO - Extracted metadata for email 'Iphone 16 during black friday': {'from_email': 'vendorA@example.com', 'is_spam': False, 'labels': '', 'to_emails': 'daan.veld@coolblue.nl', 'cc_emails': 'j.lucvanderheijden@coolblue.nl', 'bcc_emails': '', 'subject': 'Iphone 16 during black friday', 'body': "\n             Hey Daan,\n    \n             Ik heb een leuk verzoek voor je tijdens black friday.\n             Je krijgt van mij 50 euro korting op de Iphones als je ze in de actie zet.\n             Ik heb het specifiek over deze Iphone: 'dfghal908'\n             "}
+2025-05-14 13:25:09,921 - INFO - Successfully loaded 2 unique values from the 'column 2' column in this CSV: Mock Data Rebate Agent - Vendors.csv.
+2025-05-14 13:25:09,921 - INFO - Sender email 'vendorA@example.com' is known and not spam.
+2025-05-14 13:25:13,222 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-14 13:25:13,225 - INFO - LLM Response to the question if it's a valid rebate request: Yes, this email is a rebate request. Confidence score: 0.9.
+
+The email is from a vendor proposing a discount ("50 euro korting") on a specific product (Iphones) during a specific period (Black Friday), which aligns with the definition of a sell-out rebate.
+2025-05-14 13:25:13,225 - INFO - LLM determined the email is a rebate request.
+2025-05-14 13:25:13,225 - INFO - Extracted confidence: 0.9
+2025-05-14 13:25:13,225 - INFO - Email is a valid rebate request with confidence 0.9.
+2025-05-14 13:25:13,226 - INFO - Returning True from is_valid_rebate_request
+2025-05-14 13:25:15,097 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-14 13:25:15,098 - INFO - LLM Raw Extraction Response: {
+    "manufacturer_product_code": "dfghal908",
+    "product_id": "null",
+    "product_name": "Iphone",
+    "subsidiary": "null",
+    "start_date": "null",
+    "end_date": "null",
+    "campaign_promotion_related": true,
+    "rebate_compensation_factor": 50.0,
+    "max_spq": "null"
+}
+2025-05-14 13:25:15,098 - INFO - Successfully parsed raw JSON from LLM.
+2025-05-14 13:25:15,098 - INFO - Finished transforming extracted data.
+2025-05-14 13:25:15,099 - INFO - Successfully loaded 3 unique values from the 'column 0' column in this CSV: Mock Data Rebate Agent - Manufacturer Product Code Data.csv.
+2025-05-14 13:43:48,704 - INFO - Extracted metadata for email 'Iphone 16 during black friday': {'from_email': 'vendorA@example.com', 'is_spam': False, 'labels': '', 'to_emails': 'daan.veld@coolblue.nl', 'cc_emails': 'j.lucvanderheijden@coolblue.nl', 'bcc_emails': '', 'subject': 'Iphone 16 during black friday', 'body': "\n             Hey Daan,\n    \n             Ik heb een leuk verzoek voor je tijdens black friday.\n             Je krijgt van mij 50 euro korting op de Iphones als je ze in de actie zet.\n             Ik heb het specifiek over deze Iphone: 'dfghal908'\n             "}
+2025-05-14 13:43:48,705 - INFO - Successfully loaded 2 unique values from the 'column 2' column in this CSV: Mock Data Rebate Agent - Vendors.csv.
+2025-05-14 13:43:48,705 - INFO - Sender email 'vendorA@example.com' is known and not spam.
+2025-05-14 13:43:51,500 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-14 13:43:51,503 - INFO - LLM Response to the question if it's a valid rebate request: Yes, this email is a rebate request. Confidence score: 0.9.
+
+The email is from a vendor proposing a discount ("50 euro korting") on a specific product (Iphones) during a specific period ("black friday"), which aligns with the definition of a sell-out rebate.
+2025-05-14 13:43:51,503 - INFO - LLM determined the email is a rebate request.
+2025-05-14 13:43:51,503 - INFO - Extracted confidence: 0.9
+2025-05-14 13:43:51,503 - INFO - Email is a valid rebate request with confidence 0.9.
+2025-05-14 13:43:51,503 - INFO - Returning True from is_valid_rebate_request
+2025-05-14 13:43:52,992 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-14 13:43:52,995 - INFO - LLM Raw Extraction Response: {
+    "manufacturer_product_code": "dfghal908",
+    "product_id": "null",
+    "product_name": "Iphone",
+    "subsidiary": "null",
+    "start_date": "null",
+    "end_date": "null",
+    "campaign_promotion_related": true,
+    "rebate_compensation_factor": 50.0,
+    "max_spq": null
+}
+2025-05-14 13:43:52,995 - INFO - Successfully parsed raw JSON from LLM.
+2025-05-14 13:43:52,995 - WARNING - Unexpected raw value type for max_spq: None. Setting to None.
+2025-05-14 13:43:52,995 - INFO - Finished transforming extracted data.
+2025-05-14 13:43:52,996 - INFO - Successfully loaded 3 unique values from the 'column 0' column in this CSV: Mock Data Rebate Agent - Manufacturer Product Code Data.csv.
+2025-05-14 13:43:52,996 - WARNING - Found missing or invalid required fields: start_date, end_date, subsidiary
+2025-05-14 13:50:43,436 - INFO - Extracted metadata for email 'Iphone 16 during black friday': {'from_email': 'vendorA@example.com', 'is_spam': False, 'labels': '', 'to_emails': 'daan.veld@coolblue.nl', 'cc_emails': 'j.lucvanderheijden@coolblue.nl', 'bcc_emails': '', 'subject': 'Iphone 16 during black friday', 'body': "\n             Hey Daan,\n    \n             Ik heb een leuk verzoek voor je tijdens black friday.\n             Je krijgt van mij 50 euro korting op de Iphones als je ze in de actie zet.\n             Ik heb het specifiek over deze Iphone: 'dfghal908'\n             "}
+2025-05-14 13:50:43,437 - INFO - Successfully loaded 2 unique values from the 'column 2' column in this CSV: Mock Data Rebate Agent - Vendors.csv.
+2025-05-14 13:50:43,437 - INFO - Sender email 'vendorA@example.com' is known and not spam.
+2025-05-14 13:50:45,991 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-14 13:50:45,994 - INFO - LLM Response to the question if it's a valid rebate request: Yes, this email is a rebate request. Confidence score: 0.9. 
+
+The email is from a vendor offering a discount ("50 euro korting") on a specific product (Iphones) during a specific period ("black friday"), which aligns with the definition of a sell-out rebate request.
+2025-05-14 13:50:45,994 - INFO - LLM determined the email is a rebate request.
+2025-05-14 13:50:45,994 - INFO - Extracted confidence: 0.9
+2025-05-14 13:50:45,994 - INFO - Email is a valid rebate request with confidence 0.9.
+2025-05-14 13:50:45,994 - INFO - Returning True from is_valid_rebate_request
+2025-05-14 13:50:48,316 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-14 13:50:48,319 - INFO - LLM Raw Extraction Response: 
+{
+    "manufacturer_product_code": "dfghal908",
+    "product_id": "null",
+    "product_name": "Iphone 16",
+    "subsidiary": "null",
+    "start_date": "null",
+    "end_date": "null",
+    "campaign_promotion_related": true,
+    "rebate_compensation_factor": 50.0,
+    "max_spq": null
+}
+2025-05-14 13:50:48,319 - INFO - Successfully parsed raw JSON from LLM.
+2025-05-14 13:50:48,319 - WARNING - Unexpected raw value type for max_spq: None. Setting to None.
+2025-05-14 13:50:48,319 - INFO - Finished transforming extracted data.
+2025-05-14 13:50:48,320 - INFO - Successfully loaded 3 unique values from the 'column 0' column in this CSV: Mock Data Rebate Agent - Manufacturer Product Code Data.csv.
+2025-05-14 13:50:48,320 - WARNING - Found these missing or invalid required fields: start_date, end_date, subsidiary
+2025-05-14 13:51:45,135 - INFO - Extracted metadata for email 'Iphone 16 during black friday': {'from_email': 'vendorA@example.com', 'is_spam': False, 'labels': '', 'to_emails': 'daan.veld@coolblue.nl', 'cc_emails': 'j.lucvanderheijden@coolblue.nl', 'bcc_emails': '', 'subject': 'Iphone 16 during black friday', 'body': "\n             Hey Daan,\n    \n             Ik heb een leuk verzoek voor je tijdens black friday.\n             Je krijgt van mij 50 euro korting op de Iphones als je ze in de actie zet.\n             Ik heb het specifiek over deze Iphone: 'dfghal908'\n             "}
+2025-05-14 13:51:45,135 - INFO - Successfully loaded 2 unique values from the 'column 2' column in this CSV: Mock Data Rebate Agent - Vendors.csv.
+2025-05-14 13:51:45,136 - INFO - Sender email 'vendorA@example.com' is known and not spam.
+2025-05-14 13:51:47,295 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-14 13:51:47,298 - INFO - LLM Response to the question if it's a valid rebate request: Yes, this email is a rebate request. Confidence score: 0.9. 
+
+The email is from a vendor offering a discount ("50 euro korting") on a specific product (Iphones) during a specific period ("black friday"), which aligns with the definition of a sell-out rebate.
+2025-05-14 13:51:47,298 - INFO - LLM determined the email is a rebate request.
+2025-05-14 13:51:47,298 - INFO - Extracted confidence: 0.9
+2025-05-14 13:51:47,298 - INFO - Email is a valid rebate request with confidence 0.9.
+2025-05-14 13:51:47,298 - INFO - Returning True from is_valid_rebate_request
+2025-05-14 13:51:48,823 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-14 13:51:48,825 - INFO - LLM Raw Extraction Response: {
+    "manufacturer_product_code": "dfghal908",
+    "product_id": "null",
+    "product_name": "Iphone",
+    "subsidiary": "null",
+    "start_date": "null",
+    "end_date": "null",
+    "campaign_promotion_related": true,
+    "rebate_compensation_factor": 50.0,
+    "max_spq": "null"
+}
+2025-05-14 13:51:48,825 - INFO - Successfully parsed raw JSON from LLM.
+2025-05-14 13:51:48,825 - INFO - Finished transforming extracted data.
+2025-05-14 13:51:48,825 - INFO - Successfully loaded 3 unique values from the 'column 0' column in this CSV: Mock Data Rebate Agent - Manufacturer Product Code Data.csv.
+2025-05-14 13:51:48,825 - WARNING - Found these missing or invalid required fields: start_date, end_date, subsidiary
+2025-05-14 13:52:22,745 - INFO - Extracted metadata for email 'Iphone 16 during black friday': {'from_email': 'vendorA@example.com', 'is_spam': False, 'labels': '', 'to_emails': 'daan.veld@coolblue.nl', 'cc_emails': 'j.lucvanderheijden@coolblue.nl', 'bcc_emails': '', 'subject': 'Iphone 16 during black friday', 'body': "\n             Hey Daan,\n    \n             Ik heb een leuk verzoek voor je tijdens black friday.\n             Je krijgt van mij 50 euro korting op de Iphones als je ze in de actie zet.\n             Ik heb het specifiek over deze Iphone: 'dfghal908'\n             "}
+2025-05-14 13:52:22,745 - INFO - Successfully loaded 2 unique values from the 'column 2' column in this CSV: Mock Data Rebate Agent - Vendors.csv.
+2025-05-14 13:52:22,745 - INFO - Sender email 'vendorA@example.com' is known and not spam.
+2025-05-14 13:52:24,923 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-14 13:52:24,929 - INFO - LLM Response to the question if it's a valid rebate request: Yes, this email is a rebate request. Confidence score: 0.9. 
+
+The email is from a vendor offering a discount ("50 euro korting") on a specific product (Iphone) during a specific action period (black friday), which aligns with the definition of a sell-out rebate request.
+2025-05-14 13:52:24,930 - INFO - LLM determined the email is a rebate request.
+2025-05-14 13:52:24,930 - INFO - Extracted confidence: 0.9
+2025-05-14 13:52:24,930 - INFO - Email is a valid rebate request with confidence 0.9.
+2025-05-14 13:52:24,930 - INFO - Returning True from is_valid_rebate_request
+2025-05-14 13:52:26,410 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-14 13:52:26,411 - INFO - LLM Raw Extraction Response: 
+{
+    "manufacturer_product_code": "dfghal908",
+    "product_id": "null",
+    "product_name": "Iphone 16",
+    "subsidiary": "null",
+    "start_date": "null",
+    "end_date": "null",
+    "campaign_promotion_related": true,
+    "rebate_compensation_factor": 50.0,
+    "max_spq": null
+}
+2025-05-14 13:52:26,412 - INFO - Successfully parsed raw JSON from LLM.
+2025-05-14 13:52:26,412 - WARNING - Unexpected raw value type for max_spq: None. Setting to None.
+2025-05-14 13:52:26,412 - INFO - Finished transforming extracted data.
+2025-05-14 13:52:26,412 - INFO - Successfully loaded 3 unique values from the 'column 0' column in this CSV: Mock Data Rebate Agent - Manufacturer Product Code Data.csv.
+2025-05-14 13:52:26,412 - WARNING - Found these missing or invalid required fields: start_date, end_date, subsidiary
+2025-05-14 13:57:24,940 - INFO - Extracted metadata for email 'Iphone 16 during black friday': {'from_email': 'vendorA@example.com', 'is_spam': False, 'labels': '', 'to_emails': ['daan.veld@coolblue.nl'], 'cc_emails': ['j.lucvanderheijden@coolblue.nl'], 'bcc_emails': [], 'subject': 'Iphone 16 during black friday', 'body': "\n         Hey Daan,\n\n         Ik heb een leuk verzoek voor je tijdens black friday.\n         Je krijgt van mij 50 euro korting op de Iphones als je ze in de actie zet.\n         Ik heb het specifiek over deze Iphone: 'dfghal908'\n         De actie loopt van 2024-11-20 tot 2024-11-29.\n         Dit geldt voor de Benelux (NL en BE).\n         Maximaal 100 stuks per klant.\n         "}
+2025-05-14 13:57:24,940 - INFO - Successfully loaded 2 unique values from the 'column 2' column in this CSV: Mock Data Rebate Agent - Vendors.csv.
+2025-05-14 13:57:24,941 - INFO - Sender email 'vendorA@example.com' is known and not spam.
+2025-05-14 13:57:27,615 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-14 13:57:27,617 - INFO - LLM Response to the question if it's a valid rebate request: Yes, confidence score: 0.9.
+
+The email appears to be a rebate request as it offers a discount on iPhones during a specific action period (Black Friday) and mentions a specific product and time frame. The proposal is sent from the vendor to the company, aligning with the definition of a sell-out rebate.
+2025-05-14 13:57:27,617 - INFO - LLM determined the email is a rebate request.
+2025-05-14 13:57:27,618 - INFO - Extracted confidence: 0.9
+2025-05-14 13:57:27,618 - INFO - Email is a valid rebate request with confidence 0.9.
+2025-05-14 13:57:27,618 - INFO - Returning True from is_valid_rebate_request
+2025-05-14 13:57:29,455 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-14 13:57:29,461 - INFO - LLM Raw Extraction Response: {
+    "manufacturer_product_code": "dfghal908",
+    "product_id": "null",
+    "product_name": "Iphone 16",
+    "subsidiary": "NL",
+    "start_date": "2024-11-20",
+    "end_date": "2024-11-29",
+    "campaign_promotion_related": true,
+    "rebate_compensation_factor": 50.0,
+    "max_spq": 100
+}
+2025-05-14 13:57:29,461 - INFO - Successfully parsed raw JSON from LLM.
+2025-05-14 13:57:29,461 - INFO - Finished transforming extracted data.
+2025-05-14 13:57:29,461 - INFO - Successfully loaded 3 unique values from the 'column 0' column in this CSV: Mock Data Rebate Agent - Manufacturer Product Code Data.csv.
+2025-05-14 14:00:41,439 - INFO - Extracted metadata for email 'Iphone 16 during black friday': {'from_email': 'vendorA@example.com', 'is_spam': False, 'labels': '', 'to_emails': ['daan.veld@coolblue.nl'], 'cc_emails': ['j.lucvanderheijden@coolblue.nl'], 'bcc_emails': [], 'subject': 'Iphone 16 during black friday', 'body': "\n         Hey Daan,\n\n         Ik heb een leuk verzoek voor je tijdens black friday.\n         Je krijgt van mij 50 euro korting op de Iphones als je ze in de actie zet.\n         Ik heb het specifiek over deze Iphone: 'dfghal908'\n         De actie loopt van 2024-11-20 tot 2024-11-29.\n         Dit geldt voor de Benelux (NL en BE).\n         Maximaal 100 stuks per klant.\n         "}
+2025-05-14 14:00:41,440 - INFO - Successfully loaded 2 unique values from the 'column 2' column in this CSV: Mock Data Rebate Agent - Vendors.csv.
+2025-05-14 14:00:41,440 - INFO - Sender email 'vendorA@example.com' is known and not spam.
+2025-05-14 14:00:46,888 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-14 14:00:46,891 - INFO - LLM Response to the question if it's a valid rebate request: Yes, confidence score: 0.9.
+
+The email appears to be a rebate request based on the definition provided. It mentions a discount ("50 euro korting") on a specific product (Iphones) during a specific action period (black friday), which aligns with the concept of a sell-out rebate. The email is from the vendor to the company, proposing a discount during a specified time frame.
+2025-05-14 14:00:46,891 - INFO - LLM determined the email is a rebate request.
+2025-05-14 14:00:46,892 - INFO - Extracted confidence: 0.9
+2025-05-14 14:00:46,892 - INFO - Email is a valid rebate request with confidence 0.9.
+2025-05-14 14:00:46,892 - INFO - Returning True from is_valid_rebate_request
+2025-05-14 14:00:49,243 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-14 14:00:49,245 - INFO - LLM Raw Extraction Response: {
+    "manufacturer_product_code": "dfghal908",
+    "product_id": "null",
+    "product_name": "Iphone",
+    "subsidiary": "NL",
+    "start_date": "2024-11-20",
+    "end_date": "2024-11-29",
+    "campaign_promotion_related": true,
+    "rebate_compensation_factor": 50.0,
+    "max_spq": 100
+}
+2025-05-14 14:00:49,246 - INFO - Successfully parsed raw JSON from LLM.
+2025-05-14 14:00:49,246 - INFO - Finished transforming extracted data.
+2025-05-14 14:00:49,247 - INFO - Successfully loaded 3 unique values from the 'column 0' column in this CSV: Mock Data Rebate Agent - Manufacturer Product Code Data.csv.
+2025-05-14 14:02:24,000 - INFO - Extracted metadata for email 'Iphone 16 during black friday': {'from_email': 'vendorA@example.com', 'is_spam': False, 'labels': '', 'to_emails': ['daan.veld@coolblue.nl'], 'cc_emails': ['j.lucvanderheijden@coolblue.nl'], 'bcc_emails': [], 'subject': 'Iphone 16 during black friday', 'body': "\n         Hey Daan,\n\n         Ik heb een leuk verzoek voor je tijdens black friday.\n         Je krijgt van mij 50 euro korting op de Iphones als je ze in de actie zet.\n         Ik heb het specifiek over deze Iphone: 'dfghal908'\n         De actie loopt van 2024-11-20 tot 2024-11-29.\n         Dit geldt voor de Benelux (NL en BE).\n         Maximaal 100 stuks per klant.\n         "}
+2025-05-14 14:02:24,001 - INFO - Successfully loaded 2 unique values from the 'column 2' column in this CSV: Mock Data Rebate Agent - Vendors.csv.
+2025-05-14 14:02:24,001 - INFO - Sender email 'vendorA@example.com' is known and not spam.
+2025-05-14 14:02:26,971 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-14 14:02:26,974 - INFO - LLM Response to the question if it's a valid rebate request: Yes, this email is a rebate request. Confidence score: 0.9. 
+
+The email is from a vendor proposing a discount on a specific product (Iphones) during a specific period (Black Friday), which aligns with the definition of a sell-out rebate. The email mentions a discount and specifies an action period, which are key indicators of a rebate request.
+2025-05-14 14:02:26,974 - INFO - LLM determined the email is a rebate request.
+2025-05-14 14:02:26,975 - INFO - Extracted confidence: 0.9
+2025-05-14 14:02:26,975 - INFO - Email is a valid rebate request with confidence 0.9.
+2025-05-14 14:02:26,975 - INFO - Returning True from is_valid_rebate_request
+2025-05-14 14:02:28,710 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-14 14:02:28,712 - INFO - LLM Raw Extraction Response: {
+    "manufacturer_product_code": "dfghal908",
+    "product_id": "null",
+    "product_name": "Iphone",
+    "subsidiary": "NL",
+    "start_date": "2024-11-20",
+    "end_date": "2024-11-29",
+    "campaign_promotion_related": true,
+    "rebate_compensation_factor": 50.0,
+    "max_spq": 100
+}
+2025-05-14 14:02:28,712 - INFO - Successfully parsed raw JSON from LLM.
+2025-05-14 14:02:28,712 - INFO - Finished transforming extracted data.
+2025-05-14 14:02:28,713 - INFO - Successfully loaded 3 unique values from the 'column 0' column in this CSV: Mock Data Rebate Agent - Manufacturer Product Code Data.csv.
+2025-05-14 14:02:28,717 - INFO - All required fields found and validated.
+2025-05-14 14:10:44,105 - INFO - Extracted metadata for email 'Iphone 16 during black friday': {'from_email': 'vendorA@example.com', 'is_spam': False, 'labels': '', 'to_emails': ['daan.veld@coolblue.nl'], 'cc_emails': ['j.lucvanderheijden@coolblue.nl'], 'bcc_emails': [], 'subject': 'Iphone 16 during black friday', 'body': "\n         Hey Daan,\n\n         Ik heb een leuk verzoek voor je tijdens black friday.\n         Je krijgt van mij 50 euro korting op de Iphones als je ze in de actie zet.\n         Ik heb het specifiek over deze Iphone: 'dfghal908'\n         De actie loopt van 2024-11-20 tot 2024-11-29.\n         Dit geldt voor de Benelux (NL en BE).\n         Maximaal 100 stuks per klant.\n         "}
+2025-05-14 14:10:44,106 - INFO - Successfully loaded 2 unique values from the 'column 2' column in this CSV: Mock Data Rebate Agent - Vendors.csv.
+2025-05-14 14:10:44,106 - INFO - Sender email 'vendorA@example.com' is known and not spam.
+2025-05-14 14:10:46,488 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-14 14:10:46,491 - INFO - LLM Response to the question if it's a valid rebate request: Yes, confidence score: 0.9.
+
+The email appears to be a rebate request as it offers a discount ("50 euro korting") on a specific product (Iphones) during a specified action period (black friday). The proposal is sent from the vendor to the company, and it aligns with the definition of a sell-out rebate.
+2025-05-14 14:10:46,491 - INFO - LLM determined the email is a rebate request.
+2025-05-14 14:10:46,491 - INFO - Extracted confidence: 0.9
+2025-05-14 14:10:46,491 - INFO - Email is a valid rebate request with confidence 0.9.
+2025-05-14 14:10:46,491 - INFO - Returning True from is_valid_rebate_request
+2025-05-14 14:10:46,492 - ERROR - An unexpected error occurred during raw extraction: Invalid format specifier ' "MPC123",
+                      "product_id": "PID456",
+                      "product_name": "Product A",
+                      "subsidiary": "NL",
+                      "start_date": "2024-07-01",
+                      "end_date": "2024-09-30",
+                      "campaign_promotion_related": true,
+                      "rebate_compensation_factor": 5.5,
+                      "max_spq": 100
+                    ' for object of type 'str'
+2025-05-14 14:10:46,492 - WARNING - No raw data provided for transformation.
+2025-05-14 14:10:46,492 - INFO - Successfully loaded 3 unique values from the 'column 0' column in this CSV: Mock Data Rebate Agent - Manufacturer Product Code Data.csv.
+2025-05-14 14:10:46,492 - WARNING - Input to validation is not a list. Returning all required fields as missing for a dummy item.
+2025-05-14 14:14:17,326 - INFO - Extracted metadata for email 'Iphone 16 during black friday': {'from_email': 'vendorA@example.com', 'is_spam': False, 'labels': '', 'to_emails': ['daan.veld@coolblue.nl'], 'cc_emails': ['j.lucvanderheijden@coolblue.nl'], 'bcc_emails': [], 'subject': 'Iphone 16 during black friday', 'body': "\n         Hey Daan,\n\n         Ik heb een leuk verzoek voor je tijdens black friday.\n         Je krijgt van mij 50 euro korting op de Iphones als je ze in de actie zet.\n         Ik heb het specifiek over deze Iphone: 'dfghal908'\n         De actie loopt van 2024-11-20 tot 2024-11-29.\n         Dit geldt voor de Benelux (NL en BE).\n         Maximaal 100 stuks per klant.\n         "}
+2025-05-14 14:14:17,326 - INFO - Successfully loaded 2 unique values from the 'column 2' column in this CSV: Mock Data Rebate Agent - Vendors.csv.
+2025-05-14 14:14:17,327 - INFO - Sender email 'vendorA@example.com' is known and not spam.
+2025-05-14 14:14:19,905 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-14 14:14:19,908 - INFO - LLM Response to the question if it's a valid rebate request: Yes, confidence score: 0.9
+
+The email fits the definition of a rebate request as it is a proposal from the vendor offering a discount on a specific product (Iphones) during a specific action period (Black Friday). The email mentions a discount ("50 euro korting") and specifies the action period ("2024-11-20 tot 2024-11-29"), which aligns with the criteria for a sell-out rebate.
+2025-05-14 14:14:19,908 - INFO - LLM determined the email is a rebate request.
+2025-05-14 14:14:19,908 - INFO - Extracted confidence: 0.9
+2025-05-14 14:14:19,908 - INFO - Email is a valid rebate request with confidence 0.9.
+2025-05-14 14:14:19,909 - INFO - Returning True from is_valid_rebate_request
+2025-05-14 14:14:19,909 - ERROR - An unexpected error occurred during raw extraction: Invalid format specifier ' "abcfg678",
+                      "product_id": "1234456",
+                      "product_name": "Product A",
+                      "subsidiary": "NL",
+                      "start_date": "2024-07-01",
+                      "end_date": "2024-09-30",
+                      "campaign_promotion_related": true,
+                      "rebate_compensation_factor": 5.5,
+                      "max_spq": 100
+                    ' for object of type 'str'
+2025-05-14 14:14:19,909 - WARNING - No raw data provided for transformation.
+2025-05-14 14:14:19,909 - INFO - Successfully loaded 3 unique values from the 'column 0' column in this CSV: Mock Data Rebate Agent - Manufacturer Product Code Data.csv.
+2025-05-14 14:14:19,909 - WARNING - Input to validation is not a list. Returning all required fields as missing for a dummy item.
+2025-05-14 14:18:27,457 - INFO - Extracted metadata for email 'Iphone 16 during black friday': {'from_email': 'vendorA@example.com', 'is_spam': False, 'labels': '', 'to_emails': ['daan.veld@coolblue.nl'], 'cc_emails': ['j.lucvanderheijden@coolblue.nl'], 'bcc_emails': [], 'subject': 'Iphone 16 during black friday', 'body': "\n         Hey Daan,\n\n         Ik heb een leuk verzoek voor je tijdens black friday.\n         Je krijgt van mij 50 euro korting op de Iphones als je ze in de actie zet.\n         Ik heb het specifiek over deze Iphone: 'dfghal908'\n         De actie loopt van 2024-11-20 tot 2024-11-29.\n         Dit geldt voor de Benelux (NL en BE).\n         Maximaal 100 stuks per klant.\n         "}
+2025-05-14 14:18:27,457 - INFO - Successfully loaded 2 unique values from the 'column 2' column in this CSV: Mock Data Rebate Agent - Vendors.csv.
+2025-05-14 14:18:27,457 - INFO - Sender email 'vendorA@example.com' is known and not spam.
+2025-05-14 14:18:30,787 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-14 14:18:30,792 - INFO - LLM Response to the question if it's a valid rebate request: Yes, confidence score: 0.9. 
+
+The email appears to be a rebate request as it is sent from the vendor to the company, offering a discount on iPhones if they are included in a promotional action during the specified Black Friday period. The email mentions a specific product and an action period, which aligns with the definition of a sell-out rebate request.
+2025-05-14 14:18:30,793 - INFO - LLM determined the email is a rebate request.
+2025-05-14 14:18:30,793 - INFO - Extracted confidence: 0.9
+2025-05-14 14:18:30,793 - INFO - Email is a valid rebate request with confidence 0.9.
+2025-05-14 14:18:30,793 - INFO - Returning True from is_valid_rebate_request
+2025-05-14 14:18:32,654 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-14 14:18:32,655 - INFO - LLM Raw Extraction Response: {
+  "rebate_items": [
+    {
+      "manufacturer_product_code": "dfghal908",
+      "product_id": null,
+      "product_name": "Iphone",
+      "subsidiary": "NL",
+      "start_date": "2024-11-20",
+      "end_date": "2024-11-29",
+      "campaign_promotion_related": true,
+      "rebate_compensation_factor": 50.0,
+      "max_spq": 100
+    },
+    {
+      "manufacturer_product_code": "dfghal908",
+      "product_id": null,
+      "product_name": "Iphone",
+      "subsidiary": "BE",
+      "start_date": "2024-11-20",
+      "end_date": "2024-11-29",
+      "campaign_promotion_related": true,
+      "rebate_compensation_factor": 50.0,
+      "max_spq": 100
+    }
+  ]
+}
+2025-05-14 14:18:32,655 - INFO - Successfully parsed raw JSON from LLM.
+2025-05-14 14:18:32,655 - INFO - Extracted 2 rebate items.
+2025-05-14 14:21:22,344 - INFO - Extracted metadata for email 'Iphone 16 during black friday': {'from_email': 'vendorA@example.com', 'is_spam': False, 'labels': '', 'to_emails': ['daan.veld@coolblue.nl'], 'cc_emails': ['j.lucvanderheijden@coolblue.nl'], 'bcc_emails': [], 'subject': 'Iphone 16 during black friday', 'body': "\n         Hey Daan,\n\n         Ik heb een leuk verzoek voor je tijdens black friday.\n         Je krijgt van mij 50 euro korting op de Iphones als je ze in de actie zet.\n         Ik heb het specifiek over deze Iphone: 'dfghal908'\n         De actie loopt van 2024-11-20 tot 2024-11-29.\n         Dit geldt voor de Benelux (NL en BE).\n         Maximaal 100 stuks per klant.\n         "}
+2025-05-14 14:21:22,344 - INFO - Successfully loaded 2 unique values from the 'column 2' column in this CSV: Mock Data Rebate Agent - Vendors.csv.
+2025-05-14 14:21:22,344 - INFO - Sender email 'vendorA@example.com' is known and not spam.
+2025-05-14 14:21:24,535 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-14 14:21:24,539 - INFO - LLM Response to the question if it's a valid rebate request: Yes, confidence score: 0.9.
+
+The email appears to be a rebate request as it offers a discount on iPhones during a specific action period (Black Friday), which aligns with the definition of a sell-out rebate. The email is initiated by the vendor and mentions a specific product and time period.
+2025-05-14 14:21:24,539 - INFO - LLM determined the email is a rebate request.
+2025-05-14 14:21:24,539 - INFO - Extracted confidence: 0.9
+2025-05-14 14:21:24,539 - INFO - Email is a valid rebate request with confidence 0.9.
+2025-05-14 14:21:24,539 - INFO - Returning True from is_valid_rebate_request
+2025-05-14 14:21:26,707 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-14 14:21:26,708 - INFO - LLM Raw Extraction Response: {
+  "rebate_items": [
+    {
+      "manufacturer_product_code": "dfghal908",
+      "product_id": null,
+      "product_name": "Iphone",
+      "subsidiary": "NL",
+      "start_date": "2024-11-20",
+      "end_date": "2024-11-29",
+      "campaign_promotion_related": true,
+      "rebate_compensation_factor": 50.0,
+      "max_spq": 100
+    },
+    {
+      "manufacturer_product_code": "dfghal908",
+      "product_id": null,
+      "product_name": "Iphone",
+      "subsidiary": "BE",
+      "start_date": "2024-11-20",
+      "end_date": "2024-11-29",
+      "campaign_promotion_related": true,
+      "rebate_compensation_factor": 50.0,
+      "max_spq": 100
+    }
+  ]
+}
+2025-05-14 14:21:26,708 - INFO - Successfully parsed raw JSON from LLM.
+2025-05-14 14:21:26,709 - INFO - Extracted 2 rebate items.
+2025-05-14 14:21:26,709 - INFO - Attempting to transforming the data.
+2025-05-14 14:22:13,163 - INFO - Extracted metadata for email 'Iphone 16 during black friday': {'from_email': 'vendorA@example.com', 'is_spam': False, 'labels': '', 'to_emails': ['daan.veld@coolblue.nl'], 'cc_emails': ['j.lucvanderheijden@coolblue.nl'], 'bcc_emails': [], 'subject': 'Iphone 16 during black friday', 'body': "\n         Hey Daan,\n\n         Ik heb een leuk verzoek voor je tijdens black friday.\n         Je krijgt van mij 50 euro korting op de Iphones als je ze in de actie zet.\n         Ik heb het specifiek over deze Iphone: 'dfghal908'\n         De actie loopt van 2024-11-20 tot 2024-11-29.\n         Dit geldt voor de Benelux (NL en BE).\n         Maximaal 100 stuks per klant.\n         "}
+2025-05-14 14:22:13,163 - INFO - Successfully loaded 2 unique values from the 'column 2' column in this CSV: Mock Data Rebate Agent - Vendors.csv.
+2025-05-14 14:22:13,163 - INFO - Sender email 'vendorA@example.com' is known and not spam.
+2025-05-14 14:22:16,458 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-14 14:22:16,463 - INFO - LLM Response to the question if it's a valid rebate request: Yes, confidence score: 0.9
+
+The email appears to be a rebate request based on the provided definition. It is sent from a vendor to the company, offering a discount on a specific product (Iphones) during a specified action period (Black Friday). The email mentions a discount ("50 euro korting") and specifies an action period ("2024-11-20 tot 2024-11-29"), which aligns with the criteria for a sell-out rebate.
+2025-05-14 14:22:16,463 - INFO - LLM determined the email is a rebate request.
+2025-05-14 14:22:16,463 - INFO - Extracted confidence: 0.9
+2025-05-14 14:22:16,463 - INFO - Email is a valid rebate request with confidence 0.9.
+2025-05-14 14:22:16,463 - INFO - Returning True from is_valid_rebate_request
+2025-05-14 14:22:19,000 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-14 14:22:19,005 - INFO - LLM Raw Extraction Response: {
+  "rebate_items": [
+    {
+      "manufacturer_product_code": "dfghal908",
+      "product_id": null,
+      "product_name": "Iphone",
+      "subsidiary": "NL",
+      "start_date": "2024-11-20",
+      "end_date": "2024-11-29",
+      "campaign_promotion_related": true,
+      "rebate_compensation_factor": 50.0,
+      "max_spq": 100
+    },
+    {
+      "manufacturer_product_code": "dfghal908",
+      "product_id": null,
+      "product_name": "Iphone",
+      "subsidiary": "BE",
+      "start_date": "2024-11-20",
+      "end_date": "2024-11-29",
+      "campaign_promotion_related": true,
+      "rebate_compensation_factor": 50.0,
+      "max_spq": 100
+    }
+  ]
+}
+2025-05-14 14:22:19,006 - INFO - Successfully parsed raw JSON from LLM.
+2025-05-14 14:22:19,006 - INFO - Extracted 2 rebate items.
+2025-05-14 14:22:19,006 - INFO - Attempting to transforming the data.
+2025-05-14 14:22:19,007 - INFO - Finished data transformation. Transformed 2 items.
+2025-05-14 14:22:19,008 - INFO - Successfully loaded 3 unique values from the 'column 0' column in this CSV: Mock Data Rebate Agent - Manufacturer Product Code Data.csv.
+2025-05-14 14:22:19,010 - INFO - Item 0: All required fields found and validated.
+2025-05-14 14:22:19,010 - INFO - Item 1: All required fields found and validated.
+2025-05-14 14:32:04,265 - INFO - Extracted metadata for email 'Iphone 16 during black friday': {'from_email': 'vendorA@example.com', 'is_spam': False, 'labels': '', 'to_emails': ['daan.veld@coolblue.nl'], 'cc_emails': ['j.lucvanderheijden@coolblue.nl'], 'bcc_emails': [], 'subject': 'Iphone 16 during black friday', 'body': "\n         Hey Daan,\n\n         Ik heb een leuke rebate voor je tijdens black friday.\n         Je krijgt van mij 50 euro media budget op de Iphones als je ze in de actie zet.\n         Ik heb het specifiek over deze Iphone: 'dfghal908'\n         De actie loopt van 2024-11-20 tot 2024-11-29.\n         Dit geldt voor de Benelux (NL en BE).\n         Maximaal 100 stuks per klant.\n         "}
+2025-05-14 14:32:04,266 - INFO - Successfully loaded 2 unique values from the 'column 2' column in this CSV: Mock Data Rebate Agent - Vendors.csv.
+2025-05-14 14:32:04,266 - INFO - Sender email 'vendorA@example.com' is known and not spam.
+2025-05-14 14:32:07,225 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-14 14:32:07,228 - INFO - LLM Response to the question if it's a valid rebate request: No, confidence score: 0.9.
+
+The email does not fit the definition of a rebate request as it describes a media budget offer rather than a discount based on sales during the rebate period. The mention of a "media budget" suggests a marketing support initiative rather than a rebate on sales.
+2025-05-14 14:32:07,228 - INFO - LLM determined email is not a rebate request.
+2025-05-14 14:32:08,967 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-14 14:32:08,970 - INFO - LLM Raw Extraction Response: {
+  "rebate_items": [
+    {
+      "manufacturer_product_code": "dfghal908",
+      "product_id": null,
+      "product_name": "Iphone",
+      "subsidiary": "NL",
+      "start_date": "2024-11-20",
+      "end_date": "2024-11-29",
+      "campaign_promotion_related": true,
+      "rebate_compensation_factor": 50.0,
+      "max_spq": 100
+    },
+    {
+      "manufacturer_product_code": "dfghal908",
+      "product_id": null,
+      "product_name": "Iphone",
+      "subsidiary": "BE",
+      "start_date": "2024-11-20",
+      "end_date": "2024-11-29",
+      "campaign_promotion_related": true,
+      "rebate_compensation_factor": 50.0,
+      "max_spq": 100
+    }
+  ]
+}
+2025-05-14 14:32:08,970 - INFO - Successfully parsed raw JSON from LLM.
+2025-05-14 14:32:08,970 - INFO - Extracted 2 rebate items.
+2025-05-14 14:32:08,970 - INFO - Attempting to transforming the data.
+2025-05-14 14:32:08,971 - INFO - Finished data transformation. Transformed 2 items.
+2025-05-14 14:32:08,971 - INFO - Successfully loaded 3 unique values from the 'column 0' column in this CSV: Mock Data Rebate Agent - Manufacturer Product Code Data.csv.
+2025-05-14 14:32:08,973 - INFO - Item 0: All required fields found and validated.
+2025-05-14 14:32:08,973 - INFO - Item 1: All required fields found and validated.
+2025-05-14 14:32:48,608 - INFO - Extracted metadata for email 'Iphone 16 during black friday': {'from_email': 'vendorA@example.com', 'is_spam': False, 'labels': '', 'to_emails': ['daan.veld@coolblue.nl'], 'cc_emails': ['j.lucvanderheijden@coolblue.nl'], 'bcc_emails': [], 'subject': 'Iphone 16 during black friday', 'body': "\n         Hey Daan,\n\n         Ik heb een leuke rebate voor je tijdens black friday.\n         Wij krijgen 50 euro van je voor alle Iphones als je ze in de actie zet.\n         Ik heb het specifiek over deze Iphone: 'dfghal908'\n         De actie loopt van 2024-11-20 tot 2024-11-29.\n         Dit geldt voor de Benelux (NL en BE).\n         Maximaal 100 stuks per klant.\n         "}
+2025-05-14 14:32:48,608 - INFO - Successfully loaded 2 unique values from the 'column 2' column in this CSV: Mock Data Rebate Agent - Vendors.csv.
+2025-05-14 14:32:48,609 - INFO - Sender email 'vendorA@example.com' is known and not spam.
+2025-05-14 14:32:51,239 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-14 14:32:51,244 - INFO - LLM Response to the question if it's a valid rebate request: Yes, confidence score: 0.9.
+
+The email fits the definition of a rebate request as it is a proposal from the vendor to the company for a discount on a product (Iphones) during a specific action period (Black Friday). The email mentions a rebate and specifies the action period, product, and geographical region, aligning with the criteria for a sell-out rebate.
+2025-05-14 14:32:51,244 - INFO - LLM determined the email is a rebate request.
+2025-05-14 14:32:51,245 - INFO - Extracted confidence: 0.9
+2025-05-14 14:32:51,245 - INFO - Email is a valid rebate request with confidence 0.9.
+2025-05-14 14:32:51,245 - INFO - Returning True from is_valid_rebate_request
+2025-05-14 14:32:54,489 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-14 14:32:54,493 - INFO - LLM Raw Extraction Response: {
+  "rebate_items": [
+    {
+      "manufacturer_product_code": "dfghal908",
+      "product_id": null,
+      "product_name": "Iphone",
+      "subsidiary": "NL",
+      "start_date": "2024-11-20",
+      "end_date": "2024-11-29",
+      "campaign_promotion_related": true,
+      "rebate_compensation_factor": 50.0,
+      "max_spq": 100
+    },
+    {
+      "manufacturer_product_code": "dfghal908",
+      "product_id": null,
+      "product_name": "Iphone",
+      "subsidiary": "BE",
+      "start_date": "2024-11-20",
+      "end_date": "2024-11-29",
+      "campaign_promotion_related": true,
+      "rebate_compensation_factor": 50.0,
+      "max_spq": 100
+    }
+  ]
+}
+2025-05-14 14:32:54,493 - INFO - Successfully parsed raw JSON from LLM.
+2025-05-14 14:32:54,493 - INFO - Extracted 2 rebate items.
+2025-05-14 14:32:54,494 - INFO - Attempting to transforming the data.
+2025-05-14 14:32:54,494 - INFO - Finished data transformation. Transformed 2 items.
+2025-05-14 14:32:54,494 - INFO - Successfully loaded 3 unique values from the 'column 0' column in this CSV: Mock Data Rebate Agent - Manufacturer Product Code Data.csv.
+2025-05-14 14:32:54,497 - INFO - Item 0: All required fields found and validated.
+2025-05-14 14:32:54,497 - INFO - Item 1: All required fields found and validated.
+2025-05-14 14:35:28,319 - INFO - Extracted metadata for email 'Iphone 16 during black friday': {'from_email': 'vendorA@example.com', 'is_spam': False, 'labels': '', 'to_emails': ['daan.veld@coolblue.nl'], 'cc_emails': ['j.lucvanderheijden@coolblue.nl'], 'bcc_emails': [], 'subject': 'Iphone 16 during black friday', 'body': "\n         Hey Daan,\n\n         Ik heb een leuke rebate voor je tijdens black friday.\n         Jij geeft ons 3000 euro voor elke unit die je nu op voorraad hebt\n         Ik heb het specifiek over deze Iphone: 'dfghal908'\n         De actie loopt van 2024-11-20 tot 2024-11-29.\n         Dit geldt voor de Benelux (NL en BE).\n         Maximaal 100 stuks per klant.\n         "}
+2025-05-14 14:35:28,319 - INFO - Successfully loaded 2 unique values from the 'column 2' column in this CSV: Mock Data Rebate Agent - Vendors.csv.
+2025-05-14 14:35:28,319 - INFO - Sender email 'vendorA@example.com' is known and not spam.
+2025-05-14 14:35:31,526 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-14 14:35:31,530 - INFO - LLM Response to the question if it's a valid rebate request: Yes, this email is a rebate request. Confidence score: 0.9. 
+
+The email is from a vendor to the company and mentions a rebate during a specific action period (Black Friday). It specifies a product (Iphone) and a time period, which aligns with the definition of a sell-out rebate request.
+2025-05-14 14:35:31,531 - INFO - LLM determined the email is a rebate request.
+2025-05-14 14:35:31,531 - INFO - Extracted confidence: 0.9
+2025-05-14 14:35:31,531 - INFO - Email is a valid rebate request with confidence 0.9.
+2025-05-14 14:35:31,531 - INFO - Returning True from is_valid_rebate_request
+2025-05-14 14:35:34,142 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-14 14:35:34,146 - INFO - LLM Raw Extraction Response: {
+  "rebate_items": [
+    {
+      "manufacturer_product_code": "dfghal908",
+      "product_id": null,
+      "product_name": "Iphone",
+      "subsidiary": "NL",
+      "start_date": "2024-11-20",
+      "end_date": "2024-11-29",
+      "campaign_promotion_related": true,
+      "rebate_compensation_factor": 3000.0,
+      "max_spq": 100
+    },
+    {
+      "manufacturer_product_code": "dfghal908",
+      "product_id": null,
+      "product_name": "Iphone",
+      "subsidiary": "BE",
+      "start_date": "2024-11-20",
+      "end_date": "2024-11-29",
+      "campaign_promotion_related": true,
+      "rebate_compensation_factor": 3000.0,
+      "max_spq": 100
+    }
+  ]
+}
+2025-05-14 14:35:34,147 - INFO - Successfully parsed raw JSON from LLM.
+2025-05-14 14:35:34,147 - INFO - Extracted 2 rebate items.
+2025-05-14 14:35:34,147 - INFO - Attempting to transforming the data.
+2025-05-14 14:35:34,148 - INFO - Finished data transformation. Transformed 2 items.
+2025-05-14 14:35:34,149 - INFO - Successfully loaded 3 unique values from the 'column 0' column in this CSV: Mock Data Rebate Agent - Manufacturer Product Code Data.csv.
+2025-05-14 14:35:34,151 - INFO - Item 0: All required fields found and validated.
+2025-05-14 14:35:34,151 - INFO - Item 1: All required fields found and validated.
+2025-05-14 14:36:31,831 - INFO - Extracted metadata for email 'Iphone 16 during black friday': {'from_email': 'vendorA@example.com', 'is_spam': False, 'labels': '', 'to_emails': ['daan.veld@coolblue.nl'], 'cc_emails': ['j.lucvanderheijden@coolblue.nl'], 'bcc_emails': [], 'subject': 'Iphone 16 during black friday', 'body': "\n         Hey Daan,\n\n         Ik heb een leuke rebate voor je tijdens black friday.\n         Jij geeft ons 3000 euro voor elke unit die je nu op voorraad hebt\n         Ik heb het specifiek over deze Iphone: 'dfghal908'\n         De actie loopt van 2024-11-20 tot 2024-11-29.\n         Dit geldt voor de Benelux (NL en BE).\n         Maximaal 100 stuks per klant.\n         "}
+2025-05-14 14:36:31,832 - INFO - Successfully loaded 2 unique values from the 'column 2' column in this CSV: Mock Data Rebate Agent - Vendors.csv.
+2025-05-14 14:36:31,832 - INFO - Sender email 'vendorA@example.com' is known and not spam.
+2025-05-14 14:36:35,082 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-14 14:36:35,086 - INFO - LLM Response to the question if it's a valid rebate request: No, this email is not a rebate request. Confidence score: 0.9.
+
+The email does mention a "rebate" and an "action period" (Black Friday), but it describes a situation where the recipient (Daan) is expected to pay the vendor 3000 euros for each unit in stock. This does not align with the definition of a rebate request, where the vendor should be offering a discount to the company, not the other way around.
+2025-05-14 14:36:35,087 - INFO - LLM determined email is not a rebate request.
+2025-05-14 14:36:36,898 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-14 14:36:36,905 - INFO - LLM Raw Extraction Response: {
+  "rebate_items": [
+    {
+      "manufacturer_product_code": "dfghal908",
+      "product_id": null,
+      "product_name": "Iphone",
+      "subsidiary": "NL",
+      "start_date": "2024-11-20",
+      "end_date": "2024-11-29",
+      "campaign_promotion_related": true,
+      "rebate_compensation_factor": 3000.0,
+      "max_spq": 100
+    },
+    {
+      "manufacturer_product_code": "dfghal908",
+      "product_id": null,
+      "product_name": "Iphone",
+      "subsidiary": "BE",
+      "start_date": "2024-11-20",
+      "end_date": "2024-11-29",
+      "campaign_promotion_related": true,
+      "rebate_compensation_factor": 3000.0,
+      "max_spq": 100
+    }
+  ]
+}
+2025-05-14 14:36:36,906 - INFO - Successfully parsed raw JSON from LLM.
+2025-05-14 14:36:36,907 - INFO - Extracted 2 rebate items.
+2025-05-14 14:36:36,907 - INFO - Attempting to transforming the data.
+2025-05-14 14:36:36,907 - INFO - Finished data transformation. Transformed 2 items.
+2025-05-14 14:36:36,908 - INFO - Successfully loaded 3 unique values from the 'column 0' column in this CSV: Mock Data Rebate Agent - Manufacturer Product Code Data.csv.
+2025-05-14 14:36:36,910 - INFO - Item 0: All required fields found and validated.
+2025-05-14 14:36:36,910 - INFO - Item 1: All required fields found and validated.
+2025-05-14 14:54:41,397 - INFO - Extracted metadata for email 'Iphone 16 during black friday': {'from_email': 'vendorA@example.com', 'is_spam': False, 'labels': '', 'to_emails': ['daan.veld@coolblue.nl'], 'cc_emails': ['j.lucvanderheijden@coolblue.nl'], 'bcc_emails': [], 'subject': 'Iphone 16 during black friday', 'body': "\n         Hey Daan,\n\n         Ik heb een leuke rebate voor je tijdens black friday.\n         Jij geeft ons 3000 euro voor elke unit die je nu op voorraad hebt\n         Ik heb het specifiek over deze Iphone: 'dfghal908'\n         De actie loopt van 2024-11-20 tot 2024-11-29.\n         Dit geldt voor de Benelux (NL en BE).\n         Maximaal 100 stuks per klant.\n         "}
+2025-05-14 14:54:41,397 - INFO - Successfully loaded 2 unique values from the 'column 2' column in this CSV: Mock Data Rebate Agent - Vendors.csv.
+2025-05-14 14:54:41,397 - INFO - Sender email 'vendorA@example.com' is known and not spam.
+2025-05-14 14:54:44,921 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-14 14:54:44,929 - INFO - LLM Response to the question if it's a valid rebate request: No, this email is not a rebate request. Confidence score: 0.9.
+
+The email does mention a "rebate" and an action period (Black Friday), but it specifies that the recipient (Daan) is expected to pay the vendor 3000 euros for each unit in stock. This implies a payment from the recipient to the vendor, rather than the vendor offering a discount or rebate to the recipient based on sales during the period. Therefore, it does not fit the definition of a sell-out rebate request.
+2025-05-14 14:54:44,929 - INFO - LLM determined email is not a rebate request.
+2025-05-14 14:54:49,343 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-14 14:54:49,344 - INFO - LLM Raw Extraction Response: {
+  "rebate_items": [
+    {
+      "manufacturer_product_code": "dfghal908",
+      "product_id": null,
+      "product_name": "Iphone",
+      "subsidiary": "NL",
+      "start_date": "2024-11-20",
+      "end_date": "2024-11-29",
+      "campaign_promotion_related": true,
+      "rebate_compensation_factor": 3000.0,
+      "max_spq": 100
+    },
+    {
+      "manufacturer_product_code": "dfghal908",
+      "product_id": null,
+      "product_name": "Iphone",
+      "subsidiary": "BE",
+      "start_date": "2024-11-20",
+      "end_date": "2024-11-29",
+      "campaign_promotion_related": true,
+      "rebate_compensation_factor": 3000.0,
+      "max_spq": 100
+    }
+  ]
+}
+2025-05-14 14:54:49,345 - INFO - Successfully parsed raw JSON from LLM.
+2025-05-14 14:54:49,345 - INFO - Extracted 2 rebate items.
+2025-05-14 14:54:49,345 - INFO - Attempting to transforming the data.
+2025-05-14 14:54:49,345 - INFO - Finished data transformation. Transformed 2 items.
+2025-05-14 14:54:49,345 - INFO - Successfully loaded 3 unique values from the 'column 0' column in this CSV: Mock Data Rebate Agent - Manufacturer Product Code Data.csv.
+2025-05-14 14:54:49,347 - INFO - Item 0: All required fields found and validated.
+2025-05-14 14:54:49,347 - INFO - Item 1: All required fields found and validated.
+2025-05-14 14:54:49,347 - ERROR - Error reading CSV file Mock Data Rebate Agent - Manufacturer Product Code Data.csv: open() argument 'encoding' must be str or None, not int
+2025-05-14 14:56:35,271 - INFO - Extracted metadata for email 'Iphone 16 during black friday': {'from_email': 'vendorA@example.com', 'is_spam': False, 'labels': '', 'to_emails': ['daan.veld@coolblue.nl'], 'cc_emails': ['j.lucvanderheijden@coolblue.nl'], 'bcc_emails': [], 'subject': 'Iphone 16 during black friday', 'body': "\n         Hey Daan,\n\n         Ik heb een leuk verzoek voor je tijdens black friday.\n         Je krijgt van mij 50 euro korting op de Iphones als je ze in de actie zet.\n         Ik heb het specifiek over deze Iphone: 'dfghal908'\n         De actie loopt van 2024-11-20 tot 2024-11-29.\n         Dit geldt voor de Benelux (NL en BE).\n         Maximaal 100 stuks per klant.\n         "}
+2025-05-14 14:56:35,271 - INFO - Successfully loaded 2 unique values from the 'column 2' column in this CSV: Mock Data Rebate Agent - Vendors.csv.
+2025-05-14 14:56:35,271 - INFO - Sender email 'vendorA@example.com' is known and not spam.
+2025-05-14 14:56:38,043 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-14 14:56:38,046 - INFO - LLM Response to the question if it's a valid rebate request: Yes, confidence score: 0.9.
+
+The email appears to be a rebate request as it is from the vendor offering a discount (50 euro korting) on iPhones during a specific action period (black friday). The proposal is for the company to receive a discount based on sales during this period, which aligns with the definition of a sell-out rebate.
+2025-05-14 14:56:38,047 - INFO - LLM determined the email is a rebate request.
+2025-05-14 14:56:38,047 - INFO - Extracted confidence: 0.9
+2025-05-14 14:56:38,047 - INFO - Email is a valid rebate request with confidence 0.9.
+2025-05-14 14:56:38,047 - INFO - Returning True from is_valid_rebate_request
+2025-05-14 14:56:41,030 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-14 14:56:41,032 - INFO - LLM Raw Extraction Response: {
+  "rebate_items": [
+    {
+      "manufacturer_product_code": "dfghal908",
+      "product_id": null,
+      "product_name": "Iphone",
+      "subsidiary": "NL",
+      "start_date": "2024-11-20",
+      "end_date": "2024-11-29",
+      "campaign_promotion_related": true,
+      "rebate_compensation_factor": 50.0,
+      "max_spq": 100
+    },
+    {
+      "manufacturer_product_code": "dfghal908",
+      "product_id": null,
+      "product_name": "Iphone",
+      "subsidiary": "BE",
+      "start_date": "2024-11-20",
+      "end_date": "2024-11-29",
+      "campaign_promotion_related": true,
+      "rebate_compensation_factor": 50.0,
+      "max_spq": 100
+    }
+  ]
+}
+2025-05-14 14:56:41,032 - INFO - Successfully parsed raw JSON from LLM.
+2025-05-14 14:56:41,033 - INFO - Extracted 2 rebate items.
+2025-05-14 14:56:41,033 - INFO - Attempting to transforming the data.
+2025-05-14 14:56:41,033 - INFO - Finished data transformation. Transformed 2 items.
+2025-05-14 14:56:41,034 - INFO - Successfully loaded 3 unique values from the 'column 0' column in this CSV: Mock Data Rebate Agent - Manufacturer Product Code Data.csv.
+2025-05-14 14:56:41,037 - INFO - Item 0: All required fields found and validated.
+2025-05-14 14:56:41,038 - INFO - Item 1: All required fields found and validated.
+2025-05-14 14:56:41,038 - ERROR - Error reading CSV file Mock Data Rebate Agent - Internal Data.csv: open() argument 'encoding' must be str or None, not int
+2025-05-14 14:58:33,712 - INFO - Extracted metadata for email 'Iphone 16 during black friday': {'from_email': 'vendorA@example.com', 'is_spam': False, 'labels': '', 'to_emails': ['daan.veld@coolblue.nl'], 'cc_emails': ['j.lucvanderheijden@coolblue.nl'], 'bcc_emails': [], 'subject': 'Iphone 16 during black friday', 'body': "\n         Hey Daan,\n\n         Ik heb een leuk verzoek voor je tijdens black friday.\n         Je krijgt van mij 50 euro korting op de Iphones als je ze in de actie zet.\n         Ik heb het specifiek over deze Iphone: 'dfghal908'\n         De actie loopt van 2024-11-20 tot 2024-11-29.\n         Dit geldt voor de Benelux (NL en BE).\n         Maximaal 100 stuks per klant.\n         "}
+2025-05-14 14:58:33,713 - INFO - Successfully loaded 2 unique values from the 'column 2' column in this CSV: Mock Data Rebate Agent - Vendors.csv.
+2025-05-14 14:58:33,713 - INFO - Sender email 'vendorA@example.com' is known and not spam.
+2025-05-14 14:58:36,567 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-14 14:58:36,618 - INFO - LLM Response to the question if it's a valid rebate request: Yes, confidence score: 0.9.
+
+The email appears to be a rebate request as it offers a discount ("50 euro korting") on a specific product (Iphones) during a specified action period (Black Friday). The proposal is sent from the vendor to the recipient, and it aligns with the definition of a sell-out rebate, where the discount is based on sales during the rebate period.
+2025-05-14 14:58:36,619 - INFO - LLM determined the email is a rebate request.
+2025-05-14 14:58:36,619 - INFO - Extracted confidence: 0.9
+2025-05-14 14:58:36,619 - INFO - Email is a valid rebate request with confidence 0.9.
+2025-05-14 14:58:36,619 - INFO - Returning True from is_valid_rebate_request
+2025-05-14 14:58:38,740 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-14 14:58:38,743 - INFO - LLM Raw Extraction Response: {
+  "rebate_items": [
+    {
+      "manufacturer_product_code": "dfghal908",
+      "product_id": null,
+      "product_name": "Iphone",
+      "subsidiary": "NL",
+      "start_date": "2024-11-20",
+      "end_date": "2024-11-29",
+      "campaign_promotion_related": true,
+      "rebate_compensation_factor": 50.0,
+      "max_spq": 100
+    },
+    {
+      "manufacturer_product_code": "dfghal908",
+      "product_id": null,
+      "product_name": "Iphone",
+      "subsidiary": "BE",
+      "start_date": "2024-11-20",
+      "end_date": "2024-11-29",
+      "campaign_promotion_related": true,
+      "rebate_compensation_factor": 50.0,
+      "max_spq": 100
+    }
+  ]
+}
+2025-05-14 14:58:38,744 - INFO - Successfully parsed raw JSON from LLM.
+2025-05-14 14:58:38,744 - INFO - Extracted 2 rebate items.
+2025-05-14 14:58:38,744 - INFO - Attempting to transforming the data.
+2025-05-14 14:58:38,745 - INFO - Finished data transformation. Transformed 2 items.
+2025-05-14 14:58:38,746 - INFO - Successfully loaded 3 unique values from the 'column 0' column in this CSV: Mock Data Rebate Agent - Manufacturer Product Code Data.csv.
+2025-05-14 14:58:38,748 - INFO - Item 0: All required fields found and validated.
+2025-05-14 14:58:38,748 - INFO - Item 1: All required fields found and validated.
+2025-05-14 14:58:38,749 - INFO - Successfully loaded 9 rows from CSV: Mock Data Rebate Agent - Internal Data.csv.
+2025-05-14 15:08:19,771 - INFO - Extracted metadata for email 'Iphone 16 during black friday': {'from_email': 'vendorA@example.com', 'is_spam': False, 'labels': '', 'to_emails': ['daan.veld@coolblue.nl'], 'cc_emails': ['j.lucvanderheijden@coolblue.nl'], 'bcc_emails': [], 'subject': 'Iphone 16 during black friday', 'body': "\n         Hey Daan,\n\n         Ik heb een leuk verzoek voor je tijdens black friday.\n         Je krijgt van mij 50 euro korting op de Iphones als je ze in de actie zet.\n         Ik heb het specifiek over deze Iphone: 'dfghal908'\n         De actie loopt van 2024-11-20 tot 2024-11-29.\n         Dit geldt voor de Benelux (NL en BE).\n         Maximaal 100 stuks per klant.\n         "}
+2025-05-14 15:08:19,771 - INFO - Successfully loaded 2 unique values from the 'column 2' column in this CSV: Mock Data Rebate Agent - Vendors.csv.
+2025-05-14 15:08:19,771 - INFO - Sender email 'vendorA@example.com' is known and not spam.
+2025-05-14 15:08:24,068 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-14 15:08:24,075 - INFO - LLM Response to the question if it's a valid rebate request: Yes, this email is a rebate request. Confidence score: 0.9. 
+
+The email is from a vendor offering a discount on iPhones during a specific action period (Black Friday), which aligns with the definition of a sell-out rebate. The email mentions a specific product, a time period, and a discount, which are key indicators of a rebate request.
+2025-05-14 15:08:24,076 - INFO - LLM determined the email is a rebate request.
+2025-05-14 15:08:24,076 - INFO - Extracted confidence: 0.9
+2025-05-14 15:08:24,076 - INFO - Email is a valid rebate request with confidence 0.9.
+2025-05-14 15:08:24,077 - INFO - Returning True from is_valid_rebate_request
+2025-05-14 15:08:27,638 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-14 15:08:27,638 - INFO - LLM Raw Extraction Response: {
+  "rebate_items": [
+    {
+      "manufacturer_product_code": "dfghal908",
+      "product_id": null,
+      "product_name": "Iphone",
+      "subsidiary": "NL",
+      "start_date": "2024-11-20",
+      "end_date": "2024-11-29",
+      "campaign_promotion_related": true,
+      "rebate_compensation_factor": 50.0,
+      "max_spq": 100
+    },
+    {
+      "manufacturer_product_code": "dfghal908",
+      "product_id": null,
+      "product_name": "Iphone",
+      "subsidiary": "BE",
+      "start_date": "2024-11-20",
+      "end_date": "2024-11-29",
+      "campaign_promotion_related": true,
+      "rebate_compensation_factor": 50.0,
+      "max_spq": 100
+    }
+  ]
+}
+2025-05-14 15:08:27,639 - INFO - Successfully parsed raw JSON from LLM.
+2025-05-14 15:08:27,639 - INFO - Extracted 2 rebate items.
+2025-05-14 15:08:27,639 - INFO - Attempting to transforming the data.
+2025-05-14 15:08:27,639 - INFO - Finished data transformation. Transformed 2 items.
+2025-05-14 15:08:27,639 - INFO - Successfully loaded 3 unique values from the 'column 0' column in this CSV: Mock Data Rebate Agent - Manufacturer Product Code Data.csv.
+2025-05-14 15:08:27,641 - INFO - Item 0: All required fields found and validated.
+2025-05-14 15:08:27,641 - INFO - Item 1: All required fields found and validated.
+2025-05-14 15:08:27,641 - INFO - Successfully loaded 9 rows from CSV: Mock Data Rebate Agent - Internal Data.csv.
+2025-05-14 15:08:27,642 - INFO - Starting rebate desirability evaluation.
+2025-05-14 15:08:27,642 - WARNING - Missing or invalid 'rebate_compensation_factor' for MPC '12345abcdef': Value was 'None'. Skipping lookup entry.
+2025-05-14 15:08:27,642 - WARNING - Missing or invalid 'rebate_compensation_factor' for MPC '12345abcdef': Value was 'None'. Skipping lookup entry.
+2025-05-14 15:08:27,642 - WARNING - Missing or invalid 'rebate_compensation_factor' for MPC '12345abcdef': Value was 'None'. Skipping lookup entry.
+2025-05-14 15:08:27,642 - WARNING - Missing or invalid 'rebate_compensation_factor' for MPC 'dfghal908': Value was 'None'. Skipping lookup entry.
+2025-05-14 15:08:27,642 - WARNING - Missing or invalid 'rebate_compensation_factor' for MPC 'dfghal908': Value was 'None'. Skipping lookup entry.
+2025-05-14 15:08:27,642 - WARNING - Missing or invalid 'rebate_compensation_factor' for MPC 'dfghal908': Value was 'None'. Skipping lookup entry.
+2025-05-14 15:08:27,642 - WARNING - Missing or invalid 'rebate_compensation_factor' for MPC 'zxva234': Value was 'None'. Skipping lookup entry.
+2025-05-14 15:08:27,642 - WARNING - Missing or invalid 'rebate_compensation_factor' for MPC 'zxva234': Value was 'None'. Skipping lookup entry.
+2025-05-14 15:08:27,642 - WARNING - Missing or invalid 'rebate_compensation_factor' for MPC 'zxva234': Value was 'None'. Skipping lookup entry.
+2025-05-14 15:08:27,642 - INFO - Built internal lookup with 0 entries.
+2025-05-14 15:08:27,642 - WARNING - Item 0: Manufacturer Product Code 'dfghal908' not found in internal data.
+2025-05-14 15:08:27,642 - WARNING - Item 1: Manufacturer Product Code 'dfghal908' not found in internal data.
+2025-05-14 15:08:27,642 - INFO - Rebate desirability evaluation finished.
+2025-05-14 15:11:49,664 - INFO - Extracted metadata for email 'Iphone 16 during black friday': {'from_email': 'vendorA@example.com', 'is_spam': False, 'labels': '', 'to_emails': ['daan.veld@coolblue.nl'], 'cc_emails': ['j.lucvanderheijden@coolblue.nl'], 'bcc_emails': [], 'subject': 'Iphone 16 during black friday', 'body': "\n         Hey Daan,\n\n         Ik heb een leuk verzoek voor je tijdens black friday.\n         Je krijgt van mij 50 euro korting op de Iphones als je ze in de actie zet.\n         Ik heb het specifiek over deze Iphone: 'dfghal908'\n         De actie loopt van 2024-11-20 tot 2024-11-29.\n         Dit geldt voor de Benelux (NL en BE).\n         Maximaal 100 stuks per klant.\n         "}
+2025-05-14 15:11:49,665 - INFO - Successfully loaded 2 unique values from the 'column 2' column in this CSV: Mock Data Rebate Agent - Vendors.csv.
+2025-05-14 15:11:49,665 - INFO - Sender email 'vendorA@example.com' is known and not spam.
+2025-05-14 15:11:53,792 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-14 15:11:53,795 - INFO - LLM Response to the question if it's a valid rebate request: Yes, confidence score: 0.9.
+
+The email appears to be a rebate request as it offers a discount of 50 euros on iPhones if they are put on sale during the Black Friday action period. The email specifies the product, the action period, and the geographical area, which aligns with the definition of a sell-out rebate request.
+2025-05-14 15:11:53,796 - INFO - LLM determined the email is a rebate request.
+2025-05-14 15:11:53,796 - INFO - Extracted confidence: 0.9
+2025-05-14 15:11:53,796 - INFO - Email is a valid rebate request with confidence 0.9.
+2025-05-14 15:11:53,796 - INFO - Returning True from is_valid_rebate_request
+2025-05-14 15:11:56,810 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-14 15:11:56,814 - INFO - LLM Raw Extraction Response: {
+  "rebate_items": [
+    {
+      "manufacturer_product_code": "dfghal908",
+      "product_id": null,
+      "product_name": "Iphone",
+      "subsidiary": "NL",
+      "start_date": "2024-11-20",
+      "end_date": "2024-11-29",
+      "campaign_promotion_related": true,
+      "rebate_compensation_factor": 50.0,
+      "max_spq": 100
+    },
+    {
+      "manufacturer_product_code": "dfghal908",
+      "product_id": null,
+      "product_name": "Iphone",
+      "subsidiary": "BE",
+      "start_date": "2024-11-20",
+      "end_date": "2024-11-29",
+      "campaign_promotion_related": true,
+      "rebate_compensation_factor": 50.0,
+      "max_spq": 100
+    }
+  ]
+}
+2025-05-14 15:11:56,814 - INFO - Successfully parsed raw JSON from LLM.
+2025-05-14 15:11:56,816 - INFO - Extracted 2 rebate items.
+2025-05-14 15:11:56,816 - INFO - Attempting to transforming the data.
+2025-05-14 15:11:56,816 - INFO - Finished data transformation. Transformed 2 items.
+2025-05-14 15:11:56,818 - INFO - Successfully loaded 3 unique values from the 'column 0' column in this CSV: Mock Data Rebate Agent - Manufacturer Product Code Data.csv.
+2025-05-14 15:11:56,821 - INFO - Item 0: All required fields found and validated.
+2025-05-14 15:11:56,821 - INFO - Item 1: All required fields found and validated.
+2025-05-14 15:11:56,821 - INFO - Successfully loaded 9 rows from CSV: Mock Data Rebate Agent - Internal Data.csv.
+2025-05-14 15:11:56,821 - INFO - Starting rebate desirability evaluation.
+2025-05-14 15:11:56,821 - WARNING - Missing or invalid 'rebate_compensation_factor' for MPC '12345abcdef': Value was 'None'. Skipping lookup entry.
+2025-05-14 15:11:56,821 - WARNING - Missing or invalid 'rebate_compensation_factor' for MPC '12345abcdef': Value was 'None'. Skipping lookup entry.
+2025-05-14 15:11:56,823 - WARNING - Missing or invalid 'rebate_compensation_factor' for MPC '12345abcdef': Value was 'None'. Skipping lookup entry.
+2025-05-14 15:11:56,823 - WARNING - Missing or invalid 'rebate_compensation_factor' for MPC 'dfghal908': Value was 'None'. Skipping lookup entry.
+2025-05-14 15:11:56,823 - WARNING - Missing or invalid 'rebate_compensation_factor' for MPC 'dfghal908': Value was 'None'. Skipping lookup entry.
+2025-05-14 15:11:56,823 - WARNING - Missing or invalid 'rebate_compensation_factor' for MPC 'dfghal908': Value was 'None'. Skipping lookup entry.
+2025-05-14 15:11:56,823 - WARNING - Missing or invalid 'rebate_compensation_factor' for MPC 'zxva234': Value was 'None'. Skipping lookup entry.
+2025-05-14 15:11:56,823 - WARNING - Missing or invalid 'rebate_compensation_factor' for MPC 'zxva234': Value was 'None'. Skipping lookup entry.
+2025-05-14 15:11:56,823 - WARNING - Missing or invalid 'rebate_compensation_factor' for MPC 'zxva234': Value was 'None'. Skipping lookup entry.
+2025-05-14 15:11:56,823 - INFO - Built internal lookup with 0 entries.
+2025-05-14 15:11:56,823 - WARNING - Item 0: Manufacturer Product Code 'dfghal908' not found in internal data.
+2025-05-14 15:11:56,824 - WARNING - Item 1: Manufacturer Product Code 'dfghal908' not found in internal data.
+2025-05-14 15:11:56,824 - INFO - Rebate desirability evaluation finished.
+2025-05-14 15:13:39,010 - INFO - Extracted metadata for email 'Iphone 16 during black friday': {'from_email': 'vendorA@example.com', 'is_spam': False, 'labels': '', 'to_emails': ['daan.veld@coolblue.nl'], 'cc_emails': ['j.lucvanderheijden@coolblue.nl'], 'bcc_emails': [], 'subject': 'Iphone 16 during black friday', 'body': "\n         Hey Daan,\n\n         Ik heb een leuk verzoek voor je tijdens black friday.\n         Je krijgt van mij 50 euro korting op de Iphones als je ze in de actie zet.\n         Ik heb het specifiek over deze Iphone: 'dfghal908'\n         De actie loopt van 2024-11-20 tot 2024-11-29.\n         Dit geldt voor de Benelux (NL en BE).\n         Maximaal 100 stuks per klant.\n         "}
+2025-05-14 15:13:39,011 - INFO - Successfully loaded 2 unique values from the 'column 2' column in this CSV: Mock Data Rebate Agent - Vendors.csv.
+2025-05-14 15:13:39,011 - INFO - Sender email 'vendorA@example.com' is known and not spam.
+2025-05-14 15:13:41,723 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-14 15:13:41,726 - INFO - LLM Response to the question if it's a valid rebate request: Yes, confidence score: 0.9.
+
+The email appears to be a rebate request as it offers a discount ("50 euro korting") on a product (Iphones) during a specific action period (Black Friday). The vendor is proposing this discount to the company, which aligns with the definition of a sell-out rebate.
+2025-05-14 15:13:41,726 - INFO - LLM determined the email is a rebate request.
+2025-05-14 15:13:41,726 - INFO - Extracted confidence: 0.9
+2025-05-14 15:13:41,726 - INFO - Email is a valid rebate request with confidence 0.9.
+2025-05-14 15:13:41,726 - INFO - Returning True from is_valid_rebate_request
+2025-05-14 15:13:43,649 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-14 15:13:43,652 - INFO - LLM Raw Extraction Response: {
+  "rebate_items": [
+    {
+      "manufacturer_product_code": "dfghal908",
+      "product_id": null,
+      "product_name": "Iphone",
+      "subsidiary": null,
+      "start_date": "2024-11-20",
+      "end_date": "2024-11-29",
+      "campaign_promotion_related": true,
+      "rebate_compensation_factor": 50.0,
+      "max_spq": 100
+    }
+  ]
+}
+2025-05-14 15:13:43,652 - INFO - Successfully parsed raw JSON from LLM.
+2025-05-14 15:13:43,653 - INFO - Extracted 1 rebate items.
+2025-05-14 15:13:43,653 - INFO - Attempting to transforming the data.
+2025-05-14 15:13:43,655 - INFO - Finished data transformation. Transformed 1 items.
+2025-05-14 15:13:43,656 - INFO - Successfully loaded 3 unique values from the 'column 0' column in this CSV: Mock Data Rebate Agent - Manufacturer Product Code Data.csv.
+2025-05-14 15:13:43,660 - WARNING - Item 0: Found issues: Field 'subsidiary' is missing or null.
+2025-05-14 15:13:43,660 - INFO - Successfully loaded 9 rows from CSV: Mock Data Rebate Agent - Internal Data.csv.
+2025-05-14 15:13:43,660 - INFO - Starting rebate desirability evaluation.
+2025-05-14 15:13:43,660 - INFO - Built internal lookup with 3 entries.
+2025-05-14 15:13:43,660 - INFO - Item 0: Rebate for 'dfghal908' (50.0) >= required (0.0). Desired.
+2025-05-14 15:13:43,660 - INFO - Rebate desirability evaluation finished.
+2025-05-14 15:17:49,784 - INFO - Extracted metadata for email 'Iphone 16 during black friday': {'from_email': 'vendorA@example.com', 'is_spam': False, 'labels': '', 'to_emails': ['daan.veld@coolblue.nl'], 'cc_emails': ['j.lucvanderheijden@coolblue.nl'], 'bcc_emails': [], 'subject': 'Iphone 16 during black friday', 'body': "\n         Hey Daan,\n\n         Ik heb een leuk verzoek voor je tijdens black friday.\n         Je krijgt van mij 50 euro korting op de Iphones als je ze in de actie zet.\n         Ik heb het specifiek over deze Iphone: 'dfghal908'\n         De actie loopt van 2024-11-20 tot 2024-11-29.\n         Dit geldt voor de Benelux (NL en BE).\n         Maximaal 100 stuks per klant.\n         "}
+2025-05-14 15:17:49,785 - INFO - Successfully loaded 2 unique values from the 'column 2' column in this CSV: Mock Data Rebate Agent - Vendors.csv.
+2025-05-14 15:17:49,785 - INFO - Sender email 'vendorA@example.com' is known and not spam.
+2025-05-14 15:17:53,921 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-14 15:17:53,924 - INFO - LLM Response to the question if it's a valid rebate request: Yes, confidence score: 0.9.
+
+The email appears to be a rebate request based on the provided definition. It is sent from the vendor to the company, offering a discount of 50 euros on iPhones if they are put on sale during the Black Friday period. The email specifies an action period (2024-11-20 to 2024-11-29) and mentions a specific product (Iphone 'dfghal908'), which aligns with the criteria for a sell-out rebate.
+2025-05-14 15:17:53,924 - INFO - LLM determined the email is a rebate request.
+2025-05-14 15:17:53,924 - INFO - Extracted confidence: 0.9
+2025-05-14 15:17:53,924 - INFO - Email is a valid rebate request with confidence 0.9.
+2025-05-14 15:17:53,925 - INFO - Returning True from is_valid_rebate_request
+2025-05-14 15:17:56,643 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-14 15:17:56,645 - INFO - LLM Raw Extraction Response: {
+  "rebate_items": [
+    {
+      "manufacturer_product_code": "dfghal908",
+      "product_id": null,
+      "product_name": "Iphone",
+      "subsidiary": "NL",
+      "start_date": "2024-11-20",
+      "end_date": "2024-11-29",
+      "campaign_promotion_related": true,
+      "rebate_compensation_factor": 50.0,
+      "max_spq": 100
+    },
+    {
+      "manufacturer_product_code": "dfghal908",
+      "product_id": null,
+      "product_name": "Iphone",
+      "subsidiary": "BE",
+      "start_date": "2024-11-20",
+      "end_date": "2024-11-29",
+      "campaign_promotion_related": true,
+      "rebate_compensation_factor": 50.0,
+      "max_spq": 100
+    }
+  ]
+}
+2025-05-14 15:17:56,646 - INFO - Successfully parsed raw JSON from LLM.
+2025-05-14 15:17:56,646 - INFO - Extracted 2 rebate items.
+2025-05-14 15:17:56,646 - INFO - Attempting to transforming the data.
+2025-05-14 15:17:56,646 - INFO - Finished data transformation. Transformed 2 items.
+2025-05-14 15:17:56,647 - INFO - Successfully loaded 3 unique values from the 'column 0' column in this CSV: Mock Data Rebate Agent - Manufacturer Product Code Data.csv.
+2025-05-14 15:17:56,649 - INFO - Item 0: All required fields found and validated.
+2025-05-14 15:17:56,649 - INFO - Item 1: All required fields found and validated.
+2025-05-14 15:17:56,650 - INFO - Successfully loaded 9 rows from CSV: Mock Data Rebate Agent - Internal Data.csv.
+2025-05-14 15:17:56,650 - INFO - Starting rebate desirability evaluation (by MPC and Subsidiary).
+2025-05-14 15:17:56,650 - INFO - Built internal lookup with 9 entries based on (MPC, Subsidiary).
+2025-05-14 15:17:56,650 - INFO - Item 0: Rebate (50.0) >= required (4.0) for combo ('dfghal908', 'NL'). Desired.
+2025-05-14 15:17:56,650 - INFO - Item 1: Rebate (50.0) >= required (5.0) for combo ('dfghal908', 'BE'). Desired.
+2025-05-14 15:17:56,650 - INFO - Rebate desirability evaluation finished.
+2025-05-14 15:19:06,041 - INFO - Extracted metadata for email 'Iphone 16 during black friday': {'from_email': 'vendorA@example.com', 'is_spam': False, 'labels': '', 'to_emails': ['daan.veld@coolblue.nl'], 'cc_emails': ['j.lucvanderheijden@coolblue.nl'], 'bcc_emails': [], 'subject': 'Iphone 16 during black friday', 'body': "\n         Hey Daan,\n\n         Ik heb een leuk verzoek voor je tijdens black friday.\n         Je krijgt van mij 50 euro korting op de Iphones als je ze in de actie zet.\n         Ik heb het specifiek over deze Iphone: 'dfghal908'\n         De actie loopt van 2024-11-20 tot 2024-11-29.\n         Dit geldt voor de Benelux (NL en BE).\n         Maximaal 100 stuks per klant.\n         "}
+2025-05-14 15:19:06,042 - INFO - Successfully loaded 2 unique values from the 'column 2' column in this CSV: Mock Data Rebate Agent - Vendors.csv.
+2025-05-14 15:19:06,042 - INFO - Sender email 'vendorA@example.com' is known and not spam.
+2025-05-14 15:19:08,942 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-14 15:19:08,944 - INFO - LLM Response to the question if it's a valid rebate request: Yes, confidence score: 0.9.
+
+The email appears to be a rebate request based on the provided definition. It is sent from the vendor to the company, offering a discount on iPhones during a specific action period (Black Friday). The email mentions a discount of 50 euros on a specific iPhone model if it is included in the promotion, which aligns with the concept of a sell-out rebate. The mention of an action period and specific product category further supports this classification.
+2025-05-14 15:19:08,944 - INFO - LLM determined the email is a rebate request.
+2025-05-14 15:19:08,945 - INFO - Extracted confidence: 0.9
+2025-05-14 15:19:08,945 - INFO - Email is a valid rebate request with confidence 0.9.
+2025-05-14 15:19:08,945 - INFO - Returning True from is_valid_rebate_request
+2025-05-14 15:19:11,491 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-14 15:19:11,494 - INFO - LLM Raw Extraction Response: {
+  "rebate_items": [
+    {
+      "manufacturer_product_code": "dfghal908",
+      "product_id": null,
+      "product_name": "Iphone",
+      "subsidiary": "NL",
+      "start_date": "2024-11-20",
+      "end_date": "2024-11-29",
+      "campaign_promotion_related": true,
+      "rebate_compensation_factor": 50.0,
+      "max_spq": 100
+    },
+    {
+      "manufacturer_product_code": "dfghal908",
+      "product_id": null,
+      "product_name": "Iphone",
+      "subsidiary": "BE",
+      "start_date": "2024-11-20",
+      "end_date": "2024-11-29",
+      "campaign_promotion_related": true,
+      "rebate_compensation_factor": 50.0,
+      "max_spq": 100
+    }
+  ]
+}
+2025-05-14 15:19:11,494 - INFO - Successfully parsed raw JSON from LLM.
+2025-05-14 15:19:11,494 - INFO - Extracted 2 rebate items.
+2025-05-14 15:19:11,494 - INFO - Attempting to transforming the data.
+2025-05-14 15:19:11,494 - INFO - Finished data transformation. Transformed 2 items.
+2025-05-14 15:19:11,494 - INFO - Successfully loaded 3 unique values from the 'column 0' column in this CSV: Mock Data Rebate Agent - Manufacturer Product Code Data.csv.
+2025-05-14 15:19:11,496 - INFO - Item 0: All required fields found and validated.
+2025-05-14 15:19:11,496 - INFO - Item 1: All required fields found and validated.
+2025-05-14 15:19:11,497 - INFO - Successfully loaded 9 rows from CSV: Mock Data Rebate Agent - Internal Data.csv.
+2025-05-14 15:19:11,497 - INFO - Starting rebate desirability evaluation (by MPC and Subsidiary).
+2025-05-14 15:19:11,497 - INFO - Built internal lookup with 9 entries based on (MPC, Subsidiary).
+2025-05-14 15:19:11,497 - INFO - Item 0: Rebate (50.0) >= required (4.0) for combo ('dfghal908', 'NL'). Desired.
+2025-05-14 15:19:11,497 - INFO - Item 1: Rebate (50.0) < required (51.0) for combo ('dfghal908', 'BE'). Not desired.
+2025-05-14 15:19:11,497 - INFO - Rebate desirability evaluation finished.
+2025-05-14 15:27:35,578 - INFO - HTTP Request: GET http://127.0.0.1:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-05-14 15:27:35,615 - INFO - HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2025-05-14 15:27:35,716 - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-05-14 15:28:17,954 - INFO - Starting processing from UI.
+2025-05-14 15:28:17,955 - ERROR - Een onverwachte fout trad op tijdens de verwerking: 'EmailMessage' object has no attribute 'sender'
+Traceback (most recent call last):
+  File "C:\Users\j.lucvanderheijden\PycharmProjects\RebateAgent\ui_test.py", line 531, in process_email_for_ui
+    email_object = email_extractor.get_email_metadata(msg) # Assumes email_extractor can handle email.message.Message or is adapted
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\j.lucvanderheijden\PycharmProjects\RebateAgent\email_extractor.py", line 32, in get_email_metadata
+    "from_email": email.sender,
+                  ^^^^^^^^^^^^
+AttributeError: 'EmailMessage' object has no attribute 'sender'
+
+2025-05-14 15:28:44,783 - INFO - Starting processing from UI.
+2025-05-14 15:28:44,784 - ERROR - Een onverwachte fout trad op tijdens de verwerking: 'EmailMessage' object has no attribute 'sender'
+Traceback (most recent call last):
+  File "C:\Users\j.lucvanderheijden\PycharmProjects\RebateAgent\ui_test.py", line 531, in process_email_for_ui
+    email_object = email_extractor.get_email_metadata(msg) # Assumes email_extractor can handle email.message.Message or is adapted
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\j.lucvanderheijden\PycharmProjects\RebateAgent\email_extractor.py", line 32, in get_email_metadata
+    "from_email": email.sender,
+                  ^^^^^^^^^^^^
+AttributeError: 'EmailMessage' object has no attribute 'sender'
+
+2025-05-14 15:29:04,939 - INFO - Starting processing from UI.
+2025-05-14 15:29:04,940 - ERROR - Een onverwachte fout trad op tijdens de verwerking: 'EmailMessage' object has no attribute 'sender'
+Traceback (most recent call last):
+  File "C:\Users\j.lucvanderheijden\PycharmProjects\RebateAgent\ui_test.py", line 531, in process_email_for_ui
+    email_object = email_extractor.get_email_metadata(msg) # Assumes email_extractor can handle email.message.Message or is adapted
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\j.lucvanderheijden\PycharmProjects\RebateAgent\email_extractor.py", line 32, in get_email_metadata
+    "from_email": email.sender,
+                  ^^^^^^^^^^^^
+AttributeError: 'EmailMessage' object has no attribute 'sender'
+
+2025-05-14 15:29:21,971 - INFO - Starting processing from UI.
+2025-05-14 15:29:21,971 - ERROR - Een onverwachte fout trad op tijdens de verwerking: 'EmailMessage' object has no attribute 'sender'
+Traceback (most recent call last):
+  File "C:\Users\j.lucvanderheijden\PycharmProjects\RebateAgent\ui_test.py", line 531, in process_email_for_ui
+    email_object = email_extractor.get_email_metadata(msg) # Assumes email_extractor can handle email.message.Message or is adapted
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\j.lucvanderheijden\PycharmProjects\RebateAgent\email_extractor.py", line 32, in get_email_metadata
+    "from_email": email.sender,
+                  ^^^^^^^^^^^^
+AttributeError: 'EmailMessage' object has no attribute 'sender'
+
+2025-05-14 15:29:37,691 - INFO - Starting processing from UI.
+2025-05-14 15:29:37,692 - ERROR - Een onverwachte fout trad op tijdens de verwerking: 'EmailMessage' object has no attribute 'sender'
+Traceback (most recent call last):
+  File "C:\Users\j.lucvanderheijden\PycharmProjects\RebateAgent\ui_test.py", line 531, in process_email_for_ui
+    email_object = email_extractor.get_email_metadata(msg) # Assumes email_extractor can handle email.message.Message or is adapted
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\j.lucvanderheijden\PycharmProjects\RebateAgent\email_extractor.py", line 32, in get_email_metadata
+    "from_email": email.sender,
+                  ^^^^^^^^^^^^
+AttributeError: 'EmailMessage' object has no attribute 'sender'
+
+2025-05-14 15:30:27,296 - INFO - Starting processing from UI.
+2025-05-14 15:30:27,297 - ERROR - Een onverwachte fout trad op tijdens de verwerking: 'EmailMessage' object has no attribute 'sender'
+Traceback (most recent call last):
+  File "C:\Users\j.lucvanderheijden\PycharmProjects\RebateAgent\ui_test.py", line 531, in process_email_for_ui
+    email_object = email_extractor.get_email_metadata(msg) # Assumes email_extractor can handle email.message.Message or is adapted
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\j.lucvanderheijden\PycharmProjects\RebateAgent\email_extractor.py", line 32, in get_email_metadata
+    "from_email": email.sender,
+                  ^^^^^^^^^^^^
+AttributeError: 'EmailMessage' object has no attribute 'sender'
+
+2025-05-14 15:39:12,036 - INFO - Extracted metadata for email 'Iphone 16 during black friday': {'from_email': 'vendorA@example.com', 'is_spam': False, 'labels': '', 'to_emails': ['daan.veld@coolblue.nl'], 'cc_emails': ['j.lucvanderheijden@coolblue.nl'], 'bcc_emails': [], 'subject': 'Iphone 16 during black friday', 'body': "\n         Hey Daan,\n\n         Ik heb een leuk verzoek voor je tijdens black friday.\n         Je krijgt van mij 50 euro korting op de Iphones als je ze in de actie zet.\n         Ik heb het specifiek over deze Iphone: 'dfghal908'\n         De actie loopt van 2024-11-20 tot 2024-11-29.\n         Dit geldt voor de Benelux (NL en BE).\n         Maximaal 100 stuks per klant.\n         "}
+2025-05-14 15:39:12,037 - INFO - Successfully loaded 2 unique values from the 'column 2' column in this CSV: Mock Data Rebate Agent - Vendors.csv.
+2025-05-14 15:39:12,037 - INFO - Sender email 'vendorA@example.com' is known and not spam.
+2025-05-14 15:39:14,877 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-14 15:39:14,887 - INFO - LLM Response to the question if it's a valid rebate request: Yes, confidence score: 0.9.
+
+The email appears to be a rebate request as it is a proposal from the vendor offering a discount ("50 euro korting") on a product (Iphones) during a specific action period (Black Friday). The email specifies the action period dates and mentions a specific product, which aligns with the definition of a sell-out rebate request.
+2025-05-14 15:39:14,888 - INFO - LLM determined the email is a rebate request.
+2025-05-14 15:39:14,888 - INFO - Extracted confidence: 0.9
+2025-05-14 15:39:14,888 - INFO - Email is a valid rebate request with confidence 0.9.
+2025-05-14 15:39:14,889 - INFO - Returning True from is_valid_rebate_request
+2025-05-14 15:39:19,603 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-14 15:39:19,605 - INFO - LLM Raw Extraction Response: {
+  "rebate_items": [
+    {
+      "manufacturer_product_code": "dfghal908",
+      "product_id": null,
+      "product_name": "Iphone",
+      "subsidiary": "NL",
+      "start_date": "2024-11-20",
+      "end_date": "2024-11-29",
+      "campaign_promotion_related": true,
+      "rebate_compensation_factor": 50.0,
+      "max_spq": 100
+    },
+    {
+      "manufacturer_product_code": "dfghal908",
+      "product_id": null,
+      "product_name": "Iphone",
+      "subsidiary": "BE",
+      "start_date": "2024-11-20",
+      "end_date": "2024-11-29",
+      "campaign_promotion_related": true,
+      "rebate_compensation_factor": 50.0,
+      "max_spq": 100
+    }
+  ]
+}
+2025-05-14 15:39:19,606 - INFO - Successfully parsed raw JSON from LLM.
+2025-05-14 15:39:19,606 - INFO - Extracted 2 rebate items.
+2025-05-14 15:39:19,606 - INFO - Attempting to transforming the data.
+2025-05-14 15:39:19,606 - INFO - Finished data transformation. Transformed 2 items.
+2025-05-14 15:39:19,606 - INFO - Successfully loaded 3 unique values from the 'column 0' column in this CSV: Mock Data Rebate Agent - Manufacturer Product Code Data.csv.
+2025-05-14 15:39:19,608 - INFO - Item 0: All required fields found and validated.
+2025-05-14 15:39:19,608 - INFO - Item 1: All required fields found and validated.
+2025-05-14 15:39:19,609 - INFO - Successfully loaded 9 rows from CSV: Mock Data Rebate Agent - Internal Data.csv.
+2025-05-14 15:39:19,609 - INFO - Starting rebate desirability evaluation (by MPC and Subsidiary).
+2025-05-14 15:39:19,609 - INFO - Built internal lookup with 9 entries based on (MPC, Subsidiary).
+2025-05-14 15:39:19,609 - INFO - Item 0: Rebate (50.0) >= required (4.0) for combo ('dfghal908', 'NL'). Desired.
+2025-05-14 15:39:19,609 - INFO - Item 1: Rebate (50.0) < required (51.0) for combo ('dfghal908', 'BE'). Not desired.
+2025-05-14 15:39:19,609 - INFO - Rebate desirability evaluation finished.
+2025-05-15 09:09:48,884 - INFO - Extracted metadata for email 'Iphone 16 during black friday': {'from_email': 'vendorA@example.com', 'is_spam': False, 'labels': '', 'to_emails': ['daan.veld@coolblue.nl'], 'cc_emails': ['j.lucvanderheijden@coolblue.nl'], 'bcc_emails': [], 'subject': 'Iphone 16 during black friday', 'body': "\n         Hey Daan,\n\n         Ik heb een leuk verzoek voor je tijdens black friday.\n         Je krijgt van mij 50 euro korting op de Iphones als je ze in de actie zet.\n         Ik heb het specifiek over deze Iphone: 'dfghal908'\n         De actie loopt van 2024-11-20 tot 2024-11-29.\n         Dit geldt voor de Benelux (NL en BE).\n         Maximaal 100 stuks per klant.\n         "}
+2025-05-15 09:09:48,885 - INFO - Successfully loaded 2 unique values from the 'column 2' column in this CSV: Mock Data Rebate Agent - Vendors.csv.
+2025-05-15 09:09:48,885 - INFO - Sender email 'vendorA@example.com' is known and not spam.
+2025-05-15 09:09:53,080 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-15 09:09:53,083 - INFO - LLM Response to the question if it's a valid rebate request: Yes, confidence score: 0.9.
+
+The email appears to be a rebate request because it is sent from a vendor to the company, offering a discount of 50 euros on iPhones if they are included in a promotional action during Black Friday. The email specifies a time period (2024-11-20 to 2024-11-29) and a specific product (iPhone 'dfghal908'), which aligns with the definition of a sell-out rebate. The use of terms like "korting" (discount) and the context of a promotional period further support this classification.
+2025-05-15 09:09:53,083 - INFO - LLM determined the email is a rebate request.
+2025-05-15 09:09:53,083 - INFO - Extracted confidence: 0.9
+2025-05-15 09:09:53,083 - INFO - Email is a valid rebate request with confidence 0.9.
+2025-05-15 09:09:53,083 - INFO - Returning True from is_valid_rebate_request
+2025-05-15 09:09:54,937 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-15 09:09:54,942 - INFO - LLM Raw Extraction Response: {
+  "rebate_items": [
+    {
+      "manufacturer_product_code": "dfghal908",
+      "product_id": null,
+      "product_name": "Iphone",
+      "subsidiary": "NL",
+      "start_date": "2024-11-20",
+      "end_date": "2024-11-29",
+      "campaign_promotion_related": true,
+      "rebate_compensation_factor": 50.0,
+      "max_spq": 100
+    },
+    {
+      "manufacturer_product_code": "dfghal908",
+      "product_id": null,
+      "product_name": "Iphone",
+      "subsidiary": "BE",
+      "start_date": "2024-11-20",
+      "end_date": "2024-11-29",
+      "campaign_promotion_related": true,
+      "rebate_compensation_factor": 50.0,
+      "max_spq": 100
+    }
+  ]
+}
+2025-05-15 09:09:54,942 - INFO - Successfully parsed raw JSON from LLM.
+2025-05-15 09:09:54,942 - INFO - Extracted 2 rebate items.
+2025-05-15 09:09:54,942 - INFO - Attempting to transforming the data.
+2025-05-15 09:09:54,942 - INFO - Finished data transformation. Transformed 2 items.
+2025-05-15 09:09:54,943 - INFO - Successfully loaded 3 unique values from the 'column 0' column in this CSV: Mock Data Rebate Agent - Manufacturer Product Code Data.csv.
+2025-05-15 09:09:54,946 - INFO - Item 0: All required fields found and validated.
+2025-05-15 09:09:54,946 - INFO - Item 1: All required fields found and validated.
+2025-05-15 09:09:54,947 - INFO - Successfully loaded 9 rows from CSV: Mock Data Rebate Agent - Internal Data.csv.
+2025-05-15 09:09:54,947 - INFO - Starting rebate desirability evaluation (by MPC and Subsidiary).
+2025-05-15 09:09:54,947 - INFO - Built internal lookup with 9 entries based on (MPC, Subsidiary).
+2025-05-15 09:09:54,947 - INFO - Item 0: Rebate (50.0) >= required (4.0) for combo ('dfghal908', 'NL'). Desired.
+2025-05-15 09:09:54,947 - INFO - Item 1: Rebate (50.0) < required (51.0) for combo ('dfghal908', 'BE'). Not desired.
+2025-05-15 09:09:54,947 - INFO - Rebate desirability evaluation finished.
+2025-05-15 11:26:10,944 - INFO - Extracted metadata for email 'Iphone 16 during black friday': {'from_email': 'vendorA@example.com', 'is_spam': False, 'labels': '', 'to_emails': ['daan.veld@coolblue.nl'], 'cc_emails': ['j.lucvanderheijden@coolblue.nl'], 'bcc_emails': [], 'subject': 'Iphone 16 during black friday', 'body': "\n         Hey Daan,\n\n         Ik heb een leuk verzoek voor je tijdens black friday.\n         Je krijgt van mij 50 euro korting op de Iphone als je ze in de actie zet.\n         Ik heb het specifiek over deze Iphone: 'dfghal908'\n         De actie loopt van 2024-11-20 tot 2024-11-29.\n         Dit geldt voor deze landen: (NL, BE en DE).\n         Maximaal 100 stuks per klant.\n         "}
+2025-05-15 11:26:10,944 - INFO - Successfully loaded 2 unique values from the 'column 2' column in this CSV: Mock Data Rebate Agent - Vendors.csv.
+2025-05-15 11:26:10,945 - INFO - Sender email 'vendorA@example.com' is known and not spam.
+2025-05-15 11:26:14,213 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-15 11:26:14,216 - INFO - LLM Response to the question if it's a valid rebate request: Yes, confidence score: 0.9.
+
+The email fits the definition of a rebate request. It is sent from a vendor to the company, offering a discount on a product (the iPhone) during a specific period (Black Friday). The email mentions a discount ("50 euro korting") and specifies an action period ("2024-11-20 tot 2024-11-29"), which aligns with the criteria for a sell-out rebate.
+2025-05-15 11:26:14,216 - INFO - LLM determined the email is a rebate request.
+2025-05-15 11:26:14,216 - INFO - Extracted confidence: 0.9
+2025-05-15 11:26:14,216 - INFO - Email is a valid rebate request with confidence 0.9.
+2025-05-15 11:26:14,216 - INFO - Returning True from is_valid_rebate_request
+2025-05-15 11:26:15,441 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-15 11:26:15,444 - INFO - LLM Raw Extraction Response: {
+  "rebate_items": [
+    {
+      "manufacturer_product_code": "dfghal908",
+      "product_id": null,
+      "product_name": "Iphone",
+      "subsidiary": null,
+      "start_date": "2024-11-20",
+      "end_date": "2024-11-29",
+      "campaign_promotion_related": true,
+      "rebate_compensation_factor": 50.0,
+      "max_spq": 100
+    }
+  ]
+}
+2025-05-15 11:26:15,445 - INFO - Successfully parsed raw JSON from LLM.
+2025-05-15 11:26:15,445 - INFO - Extracted 1 rebate items.
+2025-05-15 11:26:15,445 - INFO - Attempting to transforming the data.
+2025-05-15 11:26:15,445 - INFO - Finished data transformation. Transformed 1 items.
+2025-05-15 11:26:15,445 - INFO - Successfully loaded 3 unique values from the 'column 0' column in this CSV: Mock Data Rebate Agent - Manufacturer Product Code Data.csv.
+2025-05-15 11:26:15,447 - WARNING - Item 0: Found issues: Field 'subsidiary' is missing or null.
+2025-05-15 11:26:15,448 - INFO - Successfully loaded 9 rows from CSV: Mock Data Rebate Agent - Internal Data.csv.
+2025-05-15 11:26:15,448 - INFO - Starting rebate desirability evaluation (by MPC and Subsidiary).
+2025-05-15 11:26:15,448 - INFO - Built internal lookup with 9 entries based on (MPC, Subsidiary).
+2025-05-15 11:26:15,448 - WARNING - Item 0: Skipping evaluation for MPC 'dfghal908' due to missing or empty 'subsidiary'.
+2025-05-15 11:26:15,448 - INFO - Rebate desirability evaluation finished.
+2025-05-15 11:26:58,156 - INFO - Extracted metadata for email 'Iphone 16 during black friday': {'from_email': 'vendorA@example.com', 'is_spam': False, 'labels': '', 'to_emails': ['daan.veld@coolblue.nl'], 'cc_emails': ['j.lucvanderheijden@coolblue.nl'], 'bcc_emails': [], 'subject': 'Iphone 16 during black friday', 'body': "\n         Hey Daan,\n\n         Ik heb een leuk verzoek voor je tijdens black friday.\n         Je krijgt van mij 50 euro korting op de Iphone als je ze in de actie zet.\n         Ik heb het specifiek over deze Iphone: 'dfghal908'\n         De actie loopt van 2024-11-20 tot 2024-11-29.\n         Dit geldt voor Nederland, Belgie en Duitsland.\n         Maximaal 100 stuks per klant.\n         "}
+2025-05-15 11:26:58,156 - INFO - Successfully loaded 2 unique values from the 'column 2' column in this CSV: Mock Data Rebate Agent - Vendors.csv.
+2025-05-15 11:26:58,156 - INFO - Sender email 'vendorA@example.com' is known and not spam.
+2025-05-15 11:27:01,025 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-15 11:27:01,030 - INFO - LLM Response to the question if it's a valid rebate request: Yes, confidence score: 0.9.
+
+The email appears to be a rebate request based on the provided definition. It mentions a discount ("50 euro korting") on a product (the iPhone) during a specific action period (Black Friday, from 2024-11-20 to 2024-11-29). The proposal is sent from the vendor to the recipient, offering a discount for sales during the rebate period, which aligns with the definition of a sell-out rebate.
+2025-05-15 11:27:01,030 - INFO - LLM determined the email is a rebate request.
+2025-05-15 11:27:01,030 - INFO - Extracted confidence: 0.9
+2025-05-15 11:27:01,030 - INFO - Email is a valid rebate request with confidence 0.9.
+2025-05-15 11:27:01,031 - INFO - Returning True from is_valid_rebate_request
+2025-05-15 11:27:02,915 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-15 11:27:02,918 - INFO - LLM Raw Extraction Response: {
+  "rebate_items": [
+    {
+      "manufacturer_product_code": "dfghal908",
+      "product_id": null,
+      "product_name": "Iphone",
+      "subsidiary": null,
+      "start_date": "2024-11-20",
+      "end_date": "2024-11-29",
+      "campaign_promotion_related": true,
+      "rebate_compensation_factor": 50.0,
+      "max_spq": 100
+    }
+  ]
+}
+2025-05-15 11:27:02,919 - INFO - Successfully parsed raw JSON from LLM.
+2025-05-15 11:27:02,919 - INFO - Extracted 1 rebate items.
+2025-05-15 11:27:02,919 - INFO - Attempting to transforming the data.
+2025-05-15 11:27:02,919 - INFO - Finished data transformation. Transformed 1 items.
+2025-05-15 11:27:02,920 - INFO - Successfully loaded 3 unique values from the 'column 0' column in this CSV: Mock Data Rebate Agent - Manufacturer Product Code Data.csv.
+2025-05-15 11:27:02,922 - WARNING - Item 0: Found issues: Field 'subsidiary' is missing or null.
+2025-05-15 11:27:02,922 - INFO - Successfully loaded 9 rows from CSV: Mock Data Rebate Agent - Internal Data.csv.
+2025-05-15 11:27:02,922 - INFO - Starting rebate desirability evaluation (by MPC and Subsidiary).
+2025-05-15 11:27:02,922 - INFO - Built internal lookup with 9 entries based on (MPC, Subsidiary).
+2025-05-15 11:27:02,922 - WARNING - Item 0: Skipping evaluation for MPC 'dfghal908' due to missing or empty 'subsidiary'.
+2025-05-15 11:27:02,922 - INFO - Rebate desirability evaluation finished.
+2025-05-15 11:27:43,100 - INFO - Extracted metadata for email 'Iphone 16 during black friday': {'from_email': 'vendorA@example.com', 'is_spam': False, 'labels': '', 'to_emails': ['daan.veld@coolblue.nl'], 'cc_emails': ['j.lucvanderheijden@coolblue.nl'], 'bcc_emails': [], 'subject': 'Iphone 16 during black friday', 'body': "\n         Hey Daan,\n\n         Ik heb een leuk verzoek voor je tijdens black friday.\n         Je krijgt van mij 50 euro korting op de Iphone als je ze in de actie zet.\n         Ik heb het specifiek over deze Iphone: 'dfghal908'\n         De actie loopt van 2024-11-20 tot 2024-11-29.\n         Dit geldt voor deze subsidiaries, NL, BE & DE.\n         Maximaal 100 stuks per klant.\n         "}
+2025-05-15 11:27:43,100 - INFO - Successfully loaded 2 unique values from the 'column 2' column in this CSV: Mock Data Rebate Agent - Vendors.csv.
+2025-05-15 11:27:43,101 - INFO - Sender email 'vendorA@example.com' is known and not spam.
+2025-05-15 11:27:46,530 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-15 11:27:46,533 - INFO - LLM Response to the question if it's a valid rebate request: Yes, confidence score: 0.9.
+
+The email appears to be a rebate request as it offers a discount ("50 euro korting") on a product (Iphone) during a specific action period (Black Friday, "2024-11-20 tot 2024-11-29"). The proposal is sent from the vendor to the company, and it involves a discount based on sales during the rebate period, fitting the definition of a sell-out rebate.
+2025-05-15 11:27:46,533 - INFO - LLM determined the email is a rebate request.
+2025-05-15 11:27:46,533 - INFO - Extracted confidence: 0.9
+2025-05-15 11:27:46,533 - INFO - Email is a valid rebate request with confidence 0.9.
+2025-05-15 11:27:46,534 - INFO - Returning True from is_valid_rebate_request
+2025-05-15 11:27:49,417 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-15 11:27:49,431 - INFO - LLM Raw Extraction Response: {
+  "rebate_items": [
+    {
+      "manufacturer_product_code": "dfghal908",
+      "product_id": null,
+      "product_name": "Iphone",
+      "subsidiary": "NL",
+      "start_date": "2024-11-20",
+      "end_date": "2024-11-29",
+      "campaign_promotion_related": true,
+      "rebate_compensation_factor": 50.0,
+      "max_spq": 100
+    },
+    {
+      "manufacturer_product_code": "dfghal908",
+      "product_id": null,
+      "product_name": "Iphone",
+      "subsidiary": "BE",
+      "start_date": "2024-11-20",
+      "end_date": "2024-11-29",
+      "campaign_promotion_related": true,
+      "rebate_compensation_factor": 50.0,
+      "max_spq": 100
+    },
+    {
+      "manufacturer_product_code": "dfghal908",
+      "product_id": null,
+      "product_name": "Iphone",
+      "subsidiary": "DE",
+      "start_date": "2024-11-20",
+      "end_date": "2024-11-29",
+      "campaign_promotion_related": true,
+      "rebate_compensation_factor": 50.0,
+      "max_spq": 100
+    }
+  ]
+}
+2025-05-15 11:27:49,431 - INFO - Successfully parsed raw JSON from LLM.
+2025-05-15 11:27:49,432 - INFO - Extracted 3 rebate items.
+2025-05-15 11:27:49,432 - INFO - Attempting to transforming the data.
+2025-05-15 11:27:49,433 - INFO - Finished data transformation. Transformed 3 items.
+2025-05-15 11:27:49,434 - INFO - Successfully loaded 3 unique values from the 'column 0' column in this CSV: Mock Data Rebate Agent - Manufacturer Product Code Data.csv.
+2025-05-15 11:27:49,436 - INFO - Item 0: All required fields found and validated.
+2025-05-15 11:27:49,436 - INFO - Item 1: All required fields found and validated.
+2025-05-15 11:27:49,436 - INFO - Item 2: All required fields found and validated.
+2025-05-15 11:27:49,436 - INFO - Successfully loaded 9 rows from CSV: Mock Data Rebate Agent - Internal Data.csv.
+2025-05-15 11:27:49,436 - INFO - Starting rebate desirability evaluation (by MPC and Subsidiary).
+2025-05-15 11:27:49,436 - INFO - Built internal lookup with 9 entries based on (MPC, Subsidiary).
+2025-05-15 11:27:49,436 - INFO - Item 0: Rebate (50.0) >= required (4.0) for combo ('dfghal908', 'NL'). Desired.
+2025-05-15 11:27:49,436 - INFO - Item 1: Rebate (50.0) < required (51.0) for combo ('dfghal908', 'BE'). Not desired.
+2025-05-15 11:27:49,437 - INFO - Item 2: Rebate (50.0) >= required (0.0) for combo ('dfghal908', 'DE'). Desired.
+2025-05-15 11:27:49,437 - INFO - Rebate desirability evaluation finished.
+2025-05-15 14:03:30,322 - INFO - Attempting to fetch emails using ezgmail.
+2025-05-15 14:03:30,323 - ERROR - Error fetching emails with ezgmail: Can't find credentials file at C:\Users\j.lucvanderheijden\PycharmProjects\RebateAgent\credentials-sheets.json. Follow the instructions at https://pypi.org/project/EZGmail/ to obtain this file.
+2025-05-16 09:28:09,933 - INFO - Extracted metadata for email 'Iphone 16 during black friday': {'from_email': 'vendorA@example.com', 'is_spam': False, 'labels': '', 'to_emails': ['daan.veld@coolblue.nl'], 'cc_emails': ['j.lucvanderheijden@coolblue.nl'], 'bcc_emails': [], 'subject': 'Iphone 16 during black friday', 'body': "\n         Hey Daan,\n\n         Ik heb een leuk verzoek voor je tijdens black friday.\n         Je krijgt van mij 50 euro korting op de Iphone als je ze in de actie zet.\n         Ik heb het specifiek over deze Iphone: 'dfghal908'\n         De actie loopt van 2024-11-20 tot 2024-11-29.\n         Dit geldt voor deze subsidiaries, NL, BE & DE.\n         Maximaal 100 stuks per klant.\n         "}
+2025-05-16 09:28:09,934 - INFO - Successfully loaded 2 unique values from the 'column 2' column in this CSV: Mock Data Rebate Agent - Vendors.csv.
+2025-05-16 09:28:09,935 - INFO - Sender email 'vendorA@example.com' is known and not spam.
+2025-05-16 09:28:18,331 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-16 09:28:18,337 - INFO - LLM Response to the question if it's a valid rebate request: Yes, the email is a rebate request. Confidence score: 0.9.
+
+The email is from a vendor to the company, proposing a discount on a specific product (the iPhone) during a specific action period (Black Friday). The email mentions a discount ("50 euro korting") and specifies the action period ("2024-11-20 tot 2024-11-29"), which aligns with the definition of a sell-out rebate.
+2025-05-16 09:28:18,337 - INFO - LLM determined the email is a rebate request.
+2025-05-16 09:28:18,338 - INFO - Extracted confidence: 0.9
+2025-05-16 09:28:18,338 - INFO - Email is a valid rebate request with confidence 0.9.
+2025-05-16 09:28:18,338 - INFO - Returning True from is_valid_rebate_request
+2025-05-16 09:28:26,021 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-16 09:28:26,027 - INFO - LLM Raw Extraction Response: {
+  "rebate_items": [
+    {
+      "manufacturer_product_code": "dfghal908",
+      "product_id": null,
+      "product_name": "Iphone",
+      "subsidiary": "NL",
+      "start_date": "2024-11-20",
+      "end_date": "2024-11-29",
+      "campaign_promotion_related": true,
+      "rebate_compensation_factor": 50.0,
+      "max_spq": 100
+    },
+    {
+      "manufacturer_product_code": "dfghal908",
+      "product_id": null,
+      "product_name": "Iphone",
+      "subsidiary": "BE",
+      "start_date": "2024-11-20",
+      "end_date": "2024-11-29",
+      "campaign_promotion_related": true,
+      "rebate_compensation_factor": 50.0,
+      "max_spq": 100
+    },
+    {
+      "manufacturer_product_code": "dfghal908",
+      "product_id": null,
+      "product_name": "Iphone",
+      "subsidiary": "DE",
+      "start_date": "2024-11-20",
+      "end_date": "2024-11-29",
+      "campaign_promotion_related": true,
+      "rebate_compensation_factor": 50.0,
+      "max_spq": 100
+    }
+  ]
+}
+2025-05-16 09:28:26,028 - INFO - Successfully parsed raw JSON from LLM.
+2025-05-16 09:28:26,029 - INFO - Extracted 3 rebate items.
+2025-05-16 09:28:26,029 - INFO - Attempting to transforming the data.
+2025-05-16 09:28:26,029 - INFO - Finished data transformation. Transformed 3 items.
+2025-05-16 09:28:26,030 - INFO - Successfully loaded 3 unique values from the 'column 0' column in this CSV: Mock Data Rebate Agent - Manufacturer Product Code Data.csv.
+2025-05-16 09:28:26,045 - INFO - Item 0: All required fields found and validated.
+2025-05-16 09:28:26,045 - INFO - Item 1: All required fields found and validated.
+2025-05-16 09:28:26,045 - INFO - Item 2: All required fields found and validated.
+2025-05-16 09:28:26,046 - INFO - Successfully loaded 9 rows from CSV: Mock Data Rebate Agent - Internal Data.csv.
+2025-05-16 09:28:26,046 - INFO - Starting rebate desirability evaluation (by MPC and Subsidiary).
+2025-05-16 09:28:26,046 - INFO - Built internal lookup with 9 entries based on (MPC, Subsidiary).
+2025-05-16 09:28:26,046 - INFO - Item 0: Rebate (50.0) >= required (4.0) for combo ('dfghal908', 'NL'). Desired.
+2025-05-16 09:28:26,047 - INFO - Item 1: Rebate (50.0) < required (51.0) for combo ('dfghal908', 'BE'). Not desired.
+2025-05-16 09:28:26,047 - INFO - Item 2: Rebate (50.0) >= required (0.0) for combo ('dfghal908', 'DE'). Desired.
+2025-05-16 09:28:26,047 - INFO - Rebate desirability evaluation finished.
+2025-05-16 12:55:53,283 - INFO - Extracted metadata for email 'Iphone 16 during black friday': {'from_email': 'vendorA@example.com', 'is_spam': False, 'labels': '', 'to_emails': ['daan.veld@coolblue.nl'], 'cc_emails': ['j.lucvanderheijden@coolblue.nl'], 'bcc_emails': [], 'subject': 'Iphone 16 during black friday', 'body': "\n         Hey Daan,\n\n         Ik heb een leuk verzoek voor je tijdens black friday.\n         Je krijgt van mij 50 euro korting op de Iphone als je ze in de actie zet.\n         Ik heb het specifiek over deze Iphone: 'dfghal908'\n         De actie loopt van 2024-11-20 tot 2024-11-29.\n         Dit geldt voor deze subsidiaries, NL, BE & DE.\n         Maximaal 100 stuks per klant.\n         "}
+2025-05-16 12:55:53,284 - INFO - Successfully loaded 2 unique values from the 'column 2' column in this CSV: Mock Data Rebate Agent - Vendors.csv.
+2025-05-16 12:55:53,284 - INFO - Sender email 'vendorA@example.com' is known and not spam.
+2025-05-16 12:55:56,604 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-16 12:55:56,613 - INFO - LLM Response to the question if it's a valid rebate request: Yes, confidence score: 0.9.
+
+The email appears to be a rebate request as it is a proposal from the vendor offering a discount on a specific product (the iPhone) during a specified action period (Black Friday). The email mentions a discount ("50 euro korting") and specifies the action period ("2024-11-20 tot 2024-11-29"), which aligns with the definition of a sell-out rebate.
+2025-05-16 12:55:56,613 - INFO - LLM determined the email is a rebate request.
+2025-05-16 12:55:56,613 - INFO - Extracted confidence: 0.9
+2025-05-16 12:55:56,613 - INFO - Email is a valid rebate request with confidence 0.9.
+2025-05-16 12:55:56,613 - INFO - Returning True from is_valid_rebate_request
+2025-05-16 12:56:01,490 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-16 12:56:01,505 - INFO - LLM Raw Extraction Response: {
+  "rebate_items": [
+    {
+      "manufacturer_product_code": "dfghal908",
+      "product_id": null,
+      "product_name": "Iphone",
+      "subsidiary": "NL",
+      "start_date": "2024-11-20",
+      "end_date": "2024-11-29",
+      "campaign_promotion_related": true,
+      "rebate_compensation_factor": 50.0,
+      "max_spq": 100
+    },
+    {
+      "manufacturer_product_code": "dfghal908",
+      "product_id": null,
+      "product_name": "Iphone",
+      "subsidiary": "BE",
+      "start_date": "2024-11-20",
+      "end_date": "2024-11-29",
+      "campaign_promotion_related": true,
+      "rebate_compensation_factor": 50.0,
+      "max_spq": 100
+    },
+    {
+      "manufacturer_product_code": "dfghal908",
+      "product_id": null,
+      "product_name": "Iphone",
+      "subsidiary": "DE",
+      "start_date": "2024-11-20",
+      "end_date": "2024-11-29",
+      "campaign_promotion_related": true,
+      "rebate_compensation_factor": 50.0,
+      "max_spq": 100
+    }
+  ]
+}
+2025-05-16 12:56:01,506 - INFO - Successfully parsed raw JSON from LLM.
+2025-05-16 12:56:01,506 - INFO - Extracted 3 rebate items.
+2025-05-16 12:56:01,506 - INFO - Attempting to transforming the data.
+2025-05-16 12:56:01,506 - INFO - Finished data transformation. Transformed 3 items.
+2025-05-16 12:56:01,506 - INFO - Successfully loaded 3 unique values from the 'column 0' column in this CSV: Mock Data Rebate Agent - Manufacturer Product Code Data.csv.
+2025-05-16 12:56:01,508 - INFO - Item 0: All required fields found and validated.
+2025-05-16 12:56:01,509 - INFO - Item 1: All required fields found and validated.
+2025-05-16 12:56:01,509 - INFO - Item 2: All required fields found and validated.
+2025-05-16 12:56:01,509 - INFO - Successfully loaded 9 rows from CSV: Mock Data Rebate Agent - Internal Data.csv.
+2025-05-16 12:56:01,509 - INFO - Starting rebate desirability evaluation (by MPC and Subsidiary).
+2025-05-16 12:56:01,509 - INFO - Built internal lookup with 9 entries based on (MPC, Subsidiary).
+2025-05-16 12:56:01,509 - INFO - Item 0: Rebate (50.0) >= required (4.0) for combo ('dfghal908', 'NL'). Desired.
+2025-05-16 12:56:01,509 - INFO - Item 1: Rebate (50.0) < required (51.0) for combo ('dfghal908', 'BE'). Not desired.
+2025-05-16 12:56:01,509 - INFO - Item 2: Rebate (50.0) >= required (0.0) for combo ('dfghal908', 'DE'). Desired.
+2025-05-16 12:56:01,510 - INFO - Rebate desirability evaluation finished.
+2025-05-16 15:20:53,977 - INFO - Extracted metadata for email 'Iphone 16 during black friday': {'from_email': 'vendorA@example.com', 'is_spam': False, 'labels': '', 'to_emails': ['daan.veld@coolblue.nl'], 'cc_emails': ['j.lucvanderheijden@coolblue.nl'], 'bcc_emails': [], 'subject': 'Iphone 16 during black friday', 'body': "\n         Hey Daan,\n\n         Ik heb een leuk verzoek voor je tijdens black friday.\n         Je krijgt van mij 50 euro korting op de Iphone als je ze in de actie zet.\n         Ik heb het specifiek over deze Iphone: 'dfghal908'\n         De actie loopt van 2024-11-20 tot 2024-11-29.\n         Dit geldt voor deze subsidiaries, NL, BE & DE.\n         Maximaal 100 stuks per klant.\n         "}
+2025-05-16 15:20:53,977 - INFO - Successfully loaded 2 unique values from the 'column 2' column in this CSV: Mock Data Rebate Agent - Vendors.csv.
+2025-05-16 15:20:53,977 - INFO - Sender email 'vendorA@example.com' is known and not spam.
+2025-05-16 15:20:56,924 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-16 15:20:56,930 - INFO - LLM Response to the question if it's a valid rebate request: Yes, confidence score: 0.9
+
+The email fits the definition of a rebate request as it is a proposal from the vendor offering a discount (50 euro korting) on a product (Iphone) during a specific action period (black friday). The email is initiated by the vendor and mentions a specific product and time period, aligning with the criteria for a sell-out rebate.
+2025-05-16 15:20:56,930 - INFO - LLM determined the email is a rebate request.
+2025-05-16 15:20:56,931 - INFO - Extracted confidence: 0.9
+2025-05-16 15:20:56,931 - INFO - Email is a valid rebate request with confidence 0.9.
+2025-05-16 15:20:56,931 - INFO - Returning True from is_valid_rebate_request
+2025-05-16 15:21:00,484 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-16 15:21:00,487 - INFO - LLM Raw Extraction Response: {
+  "rebate_items": [
+    {
+      "manufacturer_product_code": "dfghal908",
+      "product_id": null,
+      "product_name": "Iphone",
+      "subsidiary": "NL",
+      "start_date": "2024-11-20",
+      "end_date": "2024-11-29",
+      "campaign_promotion_related": true,
+      "rebate_compensation_factor": 50.0,
+      "max_spq": 100
+    },
+    {
+      "manufacturer_product_code": "dfghal908",
+      "product_id": null,
+      "product_name": "Iphone",
+      "subsidiary": "BE",
+      "start_date": "2024-11-20",
+      "end_date": "2024-11-29",
+      "campaign_promotion_related": true,
+      "rebate_compensation_factor": 50.0,
+      "max_spq": 100
+    },
+    {
+      "manufacturer_product_code": "dfghal908",
+      "product_id": null,
+      "product_name": "Iphone",
+      "subsidiary": "DE",
+      "start_date": "2024-11-20",
+      "end_date": "2024-11-29",
+      "campaign_promotion_related": true,
+      "rebate_compensation_factor": 50.0,
+      "max_spq": 100
+    }
+  ]
+}
+2025-05-16 15:21:00,488 - INFO - Successfully parsed raw JSON from LLM.
+2025-05-16 15:21:00,488 - INFO - Extracted 3 rebate items.
+2025-05-16 15:21:00,488 - INFO - Attempting to transforming the data.
+2025-05-16 15:21:00,489 - INFO - Finished data transformation. Transformed 3 items.
+2025-05-16 15:21:00,490 - INFO - Successfully loaded 3 unique values from the 'column 0' column in this CSV: Mock Data Rebate Agent - Manufacturer Product Code Data.csv.
+2025-05-16 15:21:00,492 - INFO - Item 0: All required fields found and validated.
+2025-05-16 15:21:00,492 - INFO - Item 1: All required fields found and validated.
+2025-05-16 15:21:00,494 - INFO - Item 2: All required fields found and validated.
+2025-05-16 15:21:00,494 - INFO - Successfully loaded 9 rows from CSV: Mock Data Rebate Agent - Internal Data.csv.
+2025-05-16 15:21:00,494 - INFO - Starting rebate desirability evaluation (by MPC and Subsidiary).
+2025-05-16 15:21:00,494 - INFO - Built internal lookup with 9 entries based on (MPC, Subsidiary).
+2025-05-16 15:21:00,494 - INFO - Item 0: Rebate (50.0) >= required (4.0) for combo ('dfghal908', 'NL'). Desired.
+2025-05-16 15:21:00,495 - INFO - Item 1: Rebate (50.0) < required (51.0) for combo ('dfghal908', 'BE'). Not desired.
+2025-05-16 15:21:00,495 - INFO - Item 2: Rebate (50.0) >= required (0.0) for combo ('dfghal908', 'DE'). Desired.
+2025-05-16 15:21:00,495 - INFO - Rebate desirability evaluation finished.
+2025-05-23 15:17:34,339 - INFO - Extracted metadata for email 'Iphone 16 during black friday': {'from_email': 'vendorA@example.com', 'is_spam': False, 'labels': '', 'to_emails': ['daan.veld@coolblue.nl'], 'cc_emails': ['j.lucvanderheijden@coolblue.nl'], 'bcc_emails': [], 'subject': 'Iphone 16 during black friday', 'body': "\n         Hey Daan,\n\n         Ik heb een leuk verzoek voor je tijdens black friday.\n         Je krijgt van mij 50 euro korting op de Iphone als je ze in de actie zet.\n         Ik heb het specifiek over deze Iphone: 'dfghal908'\n         De actie loopt van 2024-11-20 tot 2024-11-29.\n         Dit geldt voor deze subsidiaries, NL, BE & DE.\n         Maximaal 100 stuks per klant.\n         "}
+2025-05-23 15:17:34,340 - INFO - Successfully loaded 2 unique values from the 'column 2' column in this CSV: Mock Data Rebate Agent - Vendors.csv.
+2025-05-23 15:17:34,340 - INFO - Sender email 'vendorA@example.com' is known and not spam.
+2025-05-23 15:17:37,898 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-23 15:17:37,903 - INFO - LLM Response to the question if it's a valid rebate request: Yes, confidence score: 0.9.
+
+The email appears to be a rebate request as it offers a discount of 50 euros on a specific product (the iPhone) during a specified action period (Black Friday). The email is from the vendor to the company, proposing a discount based on sales during the rebate period, which aligns with the definition of a sell-out rebate. The mention of an action period and specific product further supports this classification.
+2025-05-23 15:17:37,903 - INFO - LLM determined the email is a rebate request.
+2025-05-23 15:17:37,903 - INFO - Extracted confidence: 0.9
+2025-05-23 15:17:37,903 - INFO - Email is a valid rebate request with confidence 0.9.
+2025-05-23 15:17:37,903 - INFO - Returning True from is_valid_rebate_request
+2025-05-23 15:17:41,018 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-23 15:17:41,020 - INFO - LLM Raw Extraction Response: {
+  "rebate_items": [
+    {
+      "manufacturer_product_code": "dfghal908",
+      "product_id": null,
+      "product_name": "Iphone",
+      "subsidiary": "NL",
+      "start_date": "2024-11-20",
+      "end_date": "2024-11-29",
+      "campaign_promotion_related": true,
+      "rebate_compensation_factor": 50.0,
+      "max_spq": 100
+    },
+    {
+      "manufacturer_product_code": "dfghal908",
+      "product_id": null,
+      "product_name": "Iphone",
+      "subsidiary": "BE",
+      "start_date": "2024-11-20",
+      "end_date": "2024-11-29",
+      "campaign_promotion_related": true,
+      "rebate_compensation_factor": 50.0,
+      "max_spq": 100
+    },
+    {
+      "manufacturer_product_code": "dfghal908",
+      "product_id": null,
+      "product_name": "Iphone",
+      "subsidiary": "DE",
+      "start_date": "2024-11-20",
+      "end_date": "2024-11-29",
+      "campaign_promotion_related": true,
+      "rebate_compensation_factor": 50.0,
+      "max_spq": 100
+    }
+  ]
+}
+2025-05-23 15:17:41,020 - INFO - Successfully parsed raw JSON from LLM.
+2025-05-23 15:17:41,020 - INFO - Extracted 3 rebate items.
+2025-05-23 15:17:41,020 - INFO - Attempting to transforming the data.
+2025-05-23 15:17:41,020 - INFO - Finished data transformation. Transformed 3 items.
+2025-05-23 15:17:41,021 - INFO - Successfully loaded 3 unique values from the 'column 0' column in this CSV: Mock Data Rebate Agent - Manufacturer Product Code Data.csv.
+2025-05-23 15:17:41,047 - INFO - Item 0: All required fields found and validated.
+2025-05-23 15:17:41,047 - INFO - Item 1: All required fields found and validated.
+2025-05-23 15:17:41,047 - INFO - Item 2: All required fields found and validated.
+2025-05-23 15:17:41,049 - INFO - Successfully loaded 9 rows from CSV: Mock Data Rebate Agent - Internal Data.csv.
+2025-05-23 15:17:41,049 - INFO - Starting rebate desirability evaluation (by MPC and Subsidiary).
+2025-05-23 15:17:41,049 - INFO - Built internal lookup with 9 entries based on (MPC, Subsidiary).
+2025-05-23 15:17:41,050 - INFO - Item 0: Rebate (50.0) >= required (4.0) for combo ('dfghal908', 'NL'). Desired.
+2025-05-23 15:17:41,050 - INFO - Item 1: Rebate (50.0) < required (51.0) for combo ('dfghal908', 'BE'). Not desired.
+2025-05-23 15:17:41,050 - INFO - Item 2: Rebate (50.0) >= required (0.0) for combo ('dfghal908', 'DE'). Desired.
+2025-05-23 15:17:41,050 - INFO - Rebate desirability evaluation finished.
